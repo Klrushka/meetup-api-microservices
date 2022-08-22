@@ -64,3 +64,79 @@
 2022-08-19T11:31:49.398Z [INFO] - Server started on port 3000
 2022-08-19T11:38:07.777Z [INFO] - Middlewares was initialized
 2022-08-19T11:38:07.802Z [INFO] - Server started on port 3000
+2022-08-20T08:46:06.765Z [INFO] - Middlewares was initialized
+2022-08-20T08:46:06.792Z [INFO] - Server started on port 3000
+2022-08-20T12:15:22.699Z [INFO] - Middlewares was initialized
+2022-08-20T12:15:22.712Z [INFO] - Server started on port 3000
+2022-08-20T12:20:27.034Z [INFO] - Middlewares was initialized
+2022-08-20T12:20:27.053Z [INFO] - Server started on port 3000
+2022-08-20T12:20:45.565Z [INFO] - Middlewares was initialized
+2022-08-20T12:20:45.583Z [INFO] - Server started on port 3000
+2022-08-20T12:27:28.239Z [INFO] - Middlewares was initialized
+2022-08-20T12:27:28.252Z [INFO] - Server started on port 3000
+2022-08-20T13:02:41.435Z [INFO] - Middlewares was initialized
+2022-08-20T13:02:41.446Z [INFO] - Server started on port 3000
+2022-08-20T13:57:17.889Z [INFO] - Middlewares was initialized
+2022-08-20T13:57:17.903Z [INFO] - Server started on port 3000
+2022-08-20T13:58:56.473Z [INFO] - Middlewares was initialized
+2022-08-20T13:58:56.484Z [INFO] - Server started on port 3000
+2022-08-20T14:02:57.599Z [INFO] - Middlewares was initialized
+2022-08-20T14:02:57.613Z [INFO] - Server started on port 3000
+2022-08-20T14:05:34.733Z [INFO] - Middlewares was initialized
+2022-08-20T14:05:34.741Z [INFO] - Server started on port 3000
+2022-08-20T14:07:52.923Z [INFO] - Middlewares was initialized
+2022-08-20T14:07:52.936Z [INFO] - Server started on port 3000
+2022-08-20T14:08:29.901Z [INFO] - Middlewares was initialized
+2022-08-20T14:08:29.915Z [INFO] - Server started on port 3000
+2022-08-20T14:10:46.423Z [INFO] - Middlewares was initialized
+2022-08-20T14:10:46.435Z [INFO] - Server started on port 3000
+2022-08-20T14:11:17.757Z [INFO] - Middlewares was initialized
+2022-08-20T14:11:17.769Z [INFO] - Server started on port 3000
+2022-08-20T16:15:35.771Z [INFO] - Middlewares was initialized
+2022-08-20T16:15:35.780Z [INFO] - Server started on port 3000
+2022-08-20T16:23:27.755Z [INFO] - Middlewares was initialized
+2022-08-20T16:23:27.769Z [INFO] - Server started on port 3000
+2022-08-20T16:23:32.709Z [INFO] - POST http://localhost:3000/auth/login
+2022-08-20T16:23:32.719Z [DEBUG] - users.findOne, {"email":"qwerty"}, [object Object]
+2022-08-20T16:28:20.961Z [INFO] - Middlewares was initialized
+2022-08-20T16:28:20.973Z [INFO] - Server started on port 3000
+2022-08-20T16:28:23.756Z [INFO] - POST http://localhost:3000/auth/login
+2022-08-20T16:28:23.767Z [DEBUG] - users.findOne, {"email":"qwerty"}, {"projection":{}}
+2022-08-20T16:28:43.994Z [INFO] - POST http://localhost:3000/auth/registration
+2022-08-20T16:28:43.997Z [DEBUG] - users.findOne, {"email":"igor1@gmail.com"}, {"projection":{}}
+2022-08-20T16:28:50.489Z [INFO] - POST http://localhost:3000/auth/registration
+2022-08-20T16:28:50.491Z [DEBUG] - users.findOne, {"email":"igor11@gmail.com"}, {"projection":{}}
+2022-08-20T16:28:50.607Z [DEBUG] - users.insertOne, {"name":"Igor","surname":"Igorev","email":"igor11@gmail.com","telephone":"+375293567481","hash":"$2b$10$6isY1nlF0UgMTA7oZ7PeqOceSiEJNQTSQ1aepxxGjR21yRloUzKY6","salt":"$2b$10$6isY1nlF0UgMTA7oZ7PeqO","roles":["user"],"_id":"63010bc2faf1efc9f38f2e90","createdAt":"2022-08-20T16:28:50.604Z","updatedAt":"2022-08-20T16:28:50.604Z"}, {"session":null}
+2022-08-21T09:59:05.486Z [INFO] - Middlewares was initialized
+2022-08-21T09:59:05.498Z [INFO] - Server started on port 3000
+2022-08-21T10:04:51.873Z [INFO] - Middlewares was initialized
+2022-08-21T10:04:51.885Z [INFO] - Server started on port 3000
+2022-08-21T10:05:05.160Z [INFO] - GET http://localhost:3000/auth/google
+2022-08-21T10:05:38.985Z [INFO] - GET http://localhost:3000/auth?code=4%2F0AdQt8qjWFQ-2guAmzuR7DB10SQxjzKYmuyCjtH4y7nGUM44Il4YHGlzpQUard6kCkbTfcw&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=2&prompt=consent
+2022-08-21T10:05:39.352Z [DEBUG] - google-users.findOne, {"id":"101278733531745487582"}
+2022-08-21T10:05:39.386Z [DEBUG] - google-users.insertOne, {"id":"101278733531745487582","name":{"givenName":"Kiryl","familyName":"Sliaptsou"},"email":"kirylsliaptsou@gmail.com","picture":"https://lh3.googleusercontent.com/a/AItbvmlkSQMB2rZbb_6LXmdT6lc6W3whwKHVlMNgtkQi=s96-c","roles":{"default":[]},"_id":"63020373580438e3b93af0e0","createdAt":"2022-08-21T10:05:39.384Z","updatedAt":"2022-08-21T10:05:39.384Z"}
+2022-08-21T10:34:11.031Z [INFO] - Middlewares was initialized
+2022-08-21T10:34:11.044Z [INFO] - Server started on port 3000
+2022-08-21T10:34:20.396Z [INFO] - GET http://localhost:3000/auth/google
+2022-08-21T10:34:23.846Z [INFO] - GET http://localhost:3000/auth?code=4%2F0AdQt8qi1sykwyu5RAOT_KTZY5UcvOAQY-pV4lg96vy91E8dJWOYdqzT-ky5sECVGOHkAWA&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=2&prompt=consent
+2022-08-21T10:34:24.205Z [DEBUG] - google-users.findOne, {"id":"101278733531745487582"}
+2022-08-21T10:34:24.236Z [DEBUG] - google-users.findOne, {"email":"kirylsliaptsou@gmail.com"}
+2022-08-21T10:35:53.250Z [INFO] - Middlewares was initialized
+2022-08-21T10:35:53.259Z [INFO] - Server started on port 3000
+2022-08-21T10:36:21.095Z [INFO] - GET http://localhost:3000/auth/google
+2022-08-21T10:36:23.325Z [INFO] - GET http://localhost:3000/auth?code=4%2F0AdQt8qj-7MMMkJaGSLEs77N3BU2hcRnO8_0uoIVErCOSJDbVsL6GLxXPXFU9t46mZNd3Bg&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=0&prompt=consent
+2022-08-21T10:36:23.736Z [DEBUG] - google-users.findOne, {"id":"107219246183335349195"}
+2022-08-21T10:36:23.766Z [DEBUG] - google-users.findOne, {"email":"comeindonotbeshy@gmail.com"}
+2022-08-21T10:36:23.774Z [INFO] - GET http://localhost:3000/auth/success
+2022-08-21T10:36:24.008Z [DEBUG] - google-users.findOne, {"email":"comeindonotbeshy@gmail.com"}
+2022-08-21T10:37:15.200Z [INFO] - Middlewares was initialized
+2022-08-21T10:37:15.212Z [INFO] - Server started on port 3000
+2022-08-21T10:37:32.350Z [INFO] - GET http://localhost:3000/auth/google
+2022-08-21T10:37:34.791Z [INFO] - GET http://localhost:3000/auth?code=4%2F0AdQt8qhWFXYwsQ13MQ8SHsk-DwcAaEpDV9SfPp03rTsiBNZ8TVdo8UM6GB_VWXxiASw4Zg&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=0&prompt=consent
+2022-08-21T10:37:35.200Z [DEBUG] - google-users.findOne, {"id":"107219246183335349195"}
+2022-08-21T10:37:35.242Z [DEBUG] - google-users.findOne, {"email":"comeindonotbeshy@gmail.com"}
+2022-08-21T10:37:35.252Z [INFO] - GET http://localhost:3000/auth/success
+2022-08-21T10:42:57.149Z [INFO] - POST http://localhost:3000/auth/registration
+2022-08-21T10:43:18.583Z [INFO] - POST http://localhost:3000/auth/registration
+2022-08-21T10:43:49.679Z [INFO] - POST http://localhost:3000/auth/login
+2022-08-21T10:43:57.501Z [INFO] - POST http://localhost:3000/auth/login

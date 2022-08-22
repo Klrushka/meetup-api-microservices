@@ -5,7 +5,7 @@ import { logger } from './services/logger'
 import './config/passport'
 import passport from 'passport'
 import session from 'express-session'
-
+import {dbLogger} from './middlewares/logger'
 
 class App {
     public app: express.Application
@@ -43,6 +43,9 @@ class App {
 
     private async databaseConnection(){
         await mongoose.connect(`mongodb://${process.env.DB_HOST}:${process.env.DB_PORT}/${process.env.DB_NAME}`)
+        mongoose.set('debug', (collectionName, method, query) => {
+            dbLogger(`${collectionName}.${method}, ${JSON.stringify(query)}`)
+        })
     }
 }
 

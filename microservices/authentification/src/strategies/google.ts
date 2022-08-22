@@ -1,5 +1,5 @@
 import { Strategy } from 'passport-google-oauth2'
-import {user} from '../models/db/user' 
+import { googleUser } from '../models/db/google.user'
 
 
 
@@ -9,12 +9,17 @@ export const googleStrategy = new Strategy({
     callbackURL: 'http://localhost:3000/auth',
     passReqToCallback: true
 },
-    function (request: any, accessToken: any, refreshToken: any, profile: any, done: any) {
-        /*user.findOrCreate({ googleId: profile.id }, function (err, user) {
-            return done(err, user)
-        })*/
+    async function (_request: any, _accessToken: any, _refreshToken: any, profile: any, done: any) {
 
-        console.log(profile)
-        
+        try {
+            let user = await googleUser.findOne({ id: profile.id })
+            if (!user) {
+                user = await googleUser.create(profile)
+            }
+            done(null, user)
+        }
+        catch (err) {
+            done(err)
+        }
     }
 )

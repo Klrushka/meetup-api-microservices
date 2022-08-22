@@ -6,6 +6,27 @@ const googleUserSchema = new mongoose.Schema({
         required: true,
     },
     name: {
-        
+        givenName: {
+            type: String
+        },
+        familyName: {
+            type: String
+        }
+    },
+    email: {
+        type: String,
+        required: true
+    },
+    picture: {
+        type: String,
+    },
+    locale: {
+        type: String,
+    },
+    roles: {
+        default: ['user']
     }
-})
+}, { timestamps: true, versionKey: false })
+
+
+export const googleUser = mongoose.model('google-users', googleUserSchema)

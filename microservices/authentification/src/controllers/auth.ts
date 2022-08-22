@@ -4,22 +4,31 @@ import { encrypt } from '../services/encryption/password'
 import passport from 'passport'
 import { strategies } from '../enums/strategies'
 import { UserInterface } from '../interfaces/user.interface'
+import { generateJwt } from '../services/jwt'
+
+const isUserExist = async (email: string) => {
+    const isUser = await user.findOne({ email })
+
+    return !!isUser
+}
 
 
 class AuthentificationController {
     async registration(req: Request, res: Response) {
 
+        if (await isUserExist(req.body.email)) {
+            res.status(409).json({ message: 'user already exist' })
+            return
+        }
+
         Object.assign(req.body, encrypt(req.body.password))
 
         const newUser = await user.create(req.body)
 
-        // TODO return jwt object
-        res.json(newUser)
+        res.status(200).json(generateJwt(String(newUser._id), newUser.roles))
     }
 
-
     async login(req: Request, res: Response, next: NextFunction) {
-
         passport.authenticate(strategies.local, (err: Error, user: UserInterface) => {
             if (err) {
                 res.status(404).json(err)
@@ -32,6 +41,15 @@ class AuthentificationController {
                 res.status(200).json(user)
             }
         })(req, res, next)
+    }
+
+    async googleAuth(req: any, res: any) {                                      //! TODO whats type?
+        if (typeof req.user === 'undefined') { res.status(500).json() }
+        else {
+            res.json(
+                generateJwt(req.user.id, req.user.roles),
+            )
+        }
     }
 
 }
