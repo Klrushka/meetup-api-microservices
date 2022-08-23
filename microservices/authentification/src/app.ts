@@ -7,9 +7,11 @@ import passport from 'passport'
 import session from 'express-session'
 import {dbLogger} from './middlewares/logger'
 
+
 class App {
     public app: express.Application
     public port: string | number
+   
 
 
     constructor(routes: Router[]) {
@@ -32,8 +34,9 @@ class App {
     }
 
     private initMiddleware() {
-        this.app.use(express.json())
-        this.app.use(express.urlencoded({ extended: true }))
+        /*this.app.use(express.json({limit: bytes(1e+7)}))
+        this.app.use(express.urlencoded({ extended: true}))
+        this.app.use(formData.parse())*/ 
         this.app.use(passport.initialize())
         this.app.use(session({ secret: process.env.SECRET_KEY ?? '' }))
         this.app.use(passport.session())
@@ -43,10 +46,13 @@ class App {
 
     private async databaseConnection(){
         await mongoose.connect(`mongodb://${process.env.DB_HOST}:${process.env.DB_PORT}/${process.env.DB_NAME}`)
-        mongoose.set('debug', (collectionName, method, query) => {
-            dbLogger(`${collectionName}.${method}, ${JSON.stringify(query)}`)
+        mongoose.set('debug', (collectionName, method) => {
+            dbLogger(`${collectionName}.${method}`)
         })
     }
+
+
+   
 }
 
 

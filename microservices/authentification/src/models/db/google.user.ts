@@ -24,6 +24,7 @@ const googleUserSchema = new mongoose.Schema({
         type: String,
     },
     roles: {
+        type: Array,
         default: ['user']
     }
 }, { timestamps: true, versionKey: false })

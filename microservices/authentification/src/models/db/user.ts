@@ -24,6 +24,10 @@ const userShema = new mongoose.Schema({
     roles: {
         type: Array,
         default: ['user'] 
+    }, 
+    avatar: {
+        type: Buffer,
+        contentType: String,
     }
    
 
