@@ -6,6 +6,7 @@ import { loginValidator, registrationValidator } from '../services/validators/sh
 class Validator {
     validateLogin(req: Request, res: Response, next: NextFunction) {
         const { error } = loginValidator.validate(req.body)
+        
 
         if (error) {
             next(error)

@@ -7,6 +7,8 @@ export const localStrategy = new Strategy(
     { usernameField: 'email' },
     function (username, password, done) {
         user.findOne({ email: username }, function (err: Error, user: UserInterface) {
+            console.log(username, password)
+            
             if (err) { return done(err) }
             if (!user) { return done(null, false) }
             if (!bcrypt.compareSync(password, user.hash)) { return done(null, false) }

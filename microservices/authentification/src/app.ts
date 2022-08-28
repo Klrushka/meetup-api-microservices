@@ -6,6 +6,8 @@ import './config/passport'
 import passport from 'passport'
 import session from 'express-session'
 import {dbLogger} from './middlewares/logger'
+import bodyParser from 'body-parser'
+import formidable from 'express-formidable'
 
 
 class App {
@@ -34,9 +36,8 @@ class App {
     }
 
     private initMiddleware() {
-        /*this.app.use(express.json({limit: bytes(1e+7)}))
-        this.app.use(express.urlencoded({ extended: true}))
-        this.app.use(formData.parse())*/ 
+        this.app.use(bodyParser.json())
+        this.app.use(bodyParser.urlencoded({ extended: true }))
         this.app.use(passport.initialize())
         this.app.use(session({ secret: process.env.SECRET_KEY ?? '' }))
         this.app.use(passport.session())

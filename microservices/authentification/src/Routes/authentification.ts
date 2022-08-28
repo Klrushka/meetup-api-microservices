@@ -5,7 +5,7 @@ import { requestLoggerMiddleware } from '../middlewares/logger'
 import { validator } from '../middlewares/validator'
 import { expressjwt } from 'express-jwt'
 import { userController } from '../controllers/user'
-import multer from 'multer'
+// import multer from 'multer'
 
 
 const jwt = expressjwt({
@@ -13,22 +13,22 @@ const jwt = expressjwt({
     algorithms: ['HS256'],
 })
 
-const storage = multer.diskStorage({
-    destination: function (req, file, cb) {
-      cb(null, 'uploads')
-    },
-    filename: function (req, file, cb) {
-      cb(null, file.fieldname + '-' + Date.now())
-    }
-  })
+// const storage = multer.diskStorage({
+//     destination: function (req, file, cb) {
+//       cb(null, 'uploads')
+//     },
+//     filename: function (req, file, cb) {
+//       cb(null, file.fieldname + '-' + Date.now())
+//     }
+//   })
  
-const upload = multer({ storage: storage })
+// const upload = multer({ storage: storage })
 
 
 
 export function initRoutes(): Router {
     const router = Router()
-    router.post('/registration', requestLoggerMiddleware, validator.validateRegistration, upload.single('avatar'), authController.registration)
+    router.post('/registration', requestLoggerMiddleware, validator.validateRegistration, /*upload.single('avatar'),*/ authController.registration)
     router.post('/login', requestLoggerMiddleware, validator.validateLogin, authController.login)
     router.get('/google', requestLoggerMiddleware, passport.authenticate('google', { scope: ['email', 'profile'] }))
     router.get(
@@ -44,6 +44,7 @@ export function initRoutes(): Router {
             authController.googleAuth
         )
     )
-    router.put('/user', jwt, userController.update)
+    router.put('/user', jwt, userController.update) 
+    router.get('/verify-email/:token', authController.emailVerification)
     return router
 }

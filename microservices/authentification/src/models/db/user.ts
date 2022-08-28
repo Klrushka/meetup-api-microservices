@@ -1,6 +1,7 @@
 import mongoose from 'mongoose'
+import { UserInterface } from '../../interfaces/user.interface'
 
-const userShema = new mongoose.Schema({
+const userShema = new mongoose.Schema<UserInterface>({
     name: {
         type: String,
         required: true,
@@ -22,16 +23,24 @@ const userShema = new mongoose.Schema({
         type: String,
     },
     roles: {
-        type: Array,
+        type: [String],
         default: ['user'] 
     }, 
     avatar: {
         type: Buffer,
         contentType: String,
+    },
+    isVerified: {
+        type: Boolean,
+        required: true,
+        default: false,
+    }, 
+    emailToken: {
+        type: String,
     }
    
 
 }, {timestamps: true, versionKey: false})
 
 
-export const user = mongoose.model('users', userShema)
+export const user: mongoose.Model<UserInterface> = mongoose.model('users', userShema)
