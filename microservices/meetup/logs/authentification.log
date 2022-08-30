@@ -153,3 +153,130 @@
 2022-08-29T18:53:01.981Z [INFO] - Server started on port 3001
 2022-08-29T18:53:06.194Z [INFO] - POST http://localhost:3001/meetups
 2022-08-29T18:53:06.300Z [DEBUG] - meetups.insertOne
+2022-08-30T09:56:42.909Z [INFO] - Middlewares was initialized
+2022-08-30T09:56:42.920Z [INFO] - Server started on port 3001
+2022-08-30T09:57:15.323Z [INFO] - GET http://localhost:3001/meetups
+2022-08-30T09:57:15.466Z [DEBUG] - meetups.find
+2022-08-30T09:59:16.980Z [INFO] - GET http://localhost:3001/meetups/csv
+2022-08-30T10:02:47.139Z [INFO] - Middlewares was initialized
+2022-08-30T10:02:47.150Z [INFO] - Server started on port 3001
+2022-08-30T10:03:06.613Z [INFO] - GET http://localhost:3001/meetups/csv
+2022-08-30T10:06:33.217Z [INFO] - Middlewares was initialized
+2022-08-30T10:06:33.228Z [INFO] - Server started on port 3001
+2022-08-30T10:06:36.178Z [INFO] - GET http://localhost:3001/meetups
+2022-08-30T10:06:36.290Z [DEBUG] - meetups.find
+2022-08-30T10:06:41.989Z [INFO] - GET http://localhost:3001/meetups/csv
+2022-08-30T10:06:55.099Z [INFO] - GET http://localhost:3001/meetups/csv
+2022-08-30T10:31:32.378Z [INFO] - Middlewares was initialized
+2022-08-30T10:31:32.395Z [INFO] - Server started on port 3001
+2022-08-30T10:31:39.931Z [INFO] - GET http://localhost:3001/meetups/csv
+2022-08-30T10:36:11.153Z [INFO] - Middlewares was initialized
+2022-08-30T10:36:11.166Z [INFO] - Server started on port 3001
+2022-08-30T10:36:16.269Z [INFO] - GET http://localhost:3001/meetups/csv
+2022-08-30T10:38:05.316Z [INFO] - Middlewares was initialized
+2022-08-30T10:38:05.327Z [INFO] - Server started on port 3001
+2022-08-30T10:38:08.582Z [INFO] - GET http://localhost:3001/meetups/csv
+2022-08-30T12:45:54.245Z [INFO] - Middlewares was initialized
+2022-08-30T12:45:54.254Z [INFO] - Server started on port 3001
+2022-08-30T12:47:01.469Z [INFO] - GET http://localhost:3001/meetups/csv
+2022-08-30T12:47:32.470Z [INFO] - Middlewares was initialized
+2022-08-30T12:47:32.483Z [INFO] - Server started on port 3001
+2022-08-30T12:47:36.049Z [INFO] - GET http://localhost:3001/meetups/csv
+2022-08-30T12:48:37.737Z [INFO] - Middlewares was initialized
+2022-08-30T12:48:37.747Z [INFO] - Server started on port 3001
+2022-08-30T12:48:42.217Z [INFO] - GET http://localhost:3001/meetups/csv
+2022-08-30T12:49:19.343Z [INFO] - Middlewares was initialized
+2022-08-30T12:49:19.356Z [INFO] - Server started on port 3001
+2022-08-30T12:49:21.528Z [INFO] - GET http://localhost:3001/meetups/csv
+2022-08-30T12:50:02.243Z [INFO] - Middlewares was initialized
+2022-08-30T12:50:02.254Z [INFO] - Server started on port 3001
+2022-08-30T12:50:06.117Z [INFO] - GET http://localhost:3001/meetups/csv
+2022-08-30T12:50:07.919Z [INFO] - GET http://localhost:3001/meetups/csv
+2022-08-30T12:50:20.208Z [INFO] - GET http://localhost:3001/meetups
+2022-08-30T12:50:20.246Z [DEBUG] - meetups.find
+2022-08-30T12:50:24.509Z [INFO] - POST http://localhost:3001/meetups
+2022-08-30T12:50:24.561Z [DEBUG] - meetups.insertOne
+2022-08-30T12:50:34.127Z [INFO] - PUT http://localhost:3001/meetups/630c7d461eb36ef4c239e4fa
+2022-08-30T12:50:41.153Z [INFO] - GET http://localhost:3001/meetups/csv
+2022-08-30T12:51:44.921Z [INFO] - Middlewares was initialized
+2022-08-30T12:51:44.933Z [INFO] - Server started on port 3001
+2022-08-30T12:54:45.708Z [INFO] - GET http://localhost:3001/meetups/csv
+2022-08-30T12:55:55.646Z [INFO] - Middlewares was initialized
+2022-08-30T12:55:55.656Z [INFO] - Server started on port 3001
+2022-08-30T12:55:58.050Z [INFO] - GET http://localhost:3001/meetups/csv
+2022-08-30T12:56:37.958Z [INFO] - Middlewares was initialized
+2022-08-30T12:56:37.979Z [INFO] - Server started on port 3001
+2022-08-30T12:56:41.483Z [INFO] - GET http://localhost:3001/meetups/csv
+2022-08-30T12:56:52.521Z [INFO] - GET http://localhost:3001/meetups/csv
+2022-08-30T12:57:19.934Z [INFO] - GET http://localhost:3001/meetups/csv
+2022-08-30T12:57:46.326Z [INFO] - GET http://localhost:3001/meetups/csv
+2022-08-30T13:02:00.699Z [INFO] - Middlewares was initialized
+2022-08-30T13:02:00.708Z [INFO] - Server started on port 3001
+2022-08-30T13:02:06.097Z [INFO] - GET http://localhost:3001/meetups/csv1
+2022-08-30T13:03:10.608Z [INFO] - Middlewares was initialized
+2022-08-30T13:03:10.621Z [INFO] - Server started on port 3001
+2022-08-30T13:03:12.958Z [INFO] - GET http://localhost:3001/meetupscsv
+2022-08-30T13:04:20.882Z [INFO] - Middlewares was initialized
+2022-08-30T13:04:20.894Z [INFO] - Server started on port 3001
+2022-08-30T13:05:37.992Z [INFO] - Middlewares was initialized
+2022-08-30T13:05:38.000Z [INFO] - Server started on port 3001
+2022-08-30T13:05:43.976Z [INFO] - GET http://localhost:3001/meetupscsv
+2022-08-30T13:05:44.030Z [DEBUG] - meetups.find
+2022-08-30T13:06:24.602Z [INFO] - Middlewares was initialized
+2022-08-30T13:06:24.614Z [INFO] - Server started on port 3001
+2022-08-30T13:06:27.839Z [INFO] - GET http://localhost:3001/meetupscsv
+2022-08-30T13:06:27.890Z [DEBUG] - meetups.find
+2022-08-30T13:13:07.610Z [INFO] - Middlewares was initialized
+2022-08-30T13:13:07.623Z [INFO] - Server started on port 3001
+2022-08-30T13:13:13.466Z [INFO] - GET http://localhost:3001/meetupscsv
+2022-08-30T13:13:13.517Z [DEBUG] - meetups.find
+2022-08-30T13:13:17.338Z [INFO] - GET http://localhost:3001/meetupscsv
+2022-08-30T13:13:17.371Z [DEBUG] - meetups.find
+2022-08-30T13:13:38.924Z [INFO] - Middlewares was initialized
+2022-08-30T13:13:38.933Z [INFO] - Server started on port 3001
+2022-08-30T13:13:48.937Z [INFO] - GET http://localhost:3001/meetupscsv
+2022-08-30T13:13:48.987Z [DEBUG] - meetups.find
+2022-08-30T13:13:53.596Z [INFO] - POST http://localhost:3001/meetups
+2022-08-30T13:13:53.644Z [DEBUG] - meetups.insertOne
+2022-08-30T13:13:56.927Z [INFO] - GET http://localhost:3001/meetupscsv
+2022-08-30T13:13:56.968Z [DEBUG] - meetups.find
+2022-08-30T14:18:24.098Z [INFO] - Middlewares was initialized
+2022-08-30T14:18:24.109Z [INFO] - Server started on port 3001
+2022-08-30T14:18:48.596Z [INFO] - GET http://localhost:3001/meetupspdf
+2022-08-30T14:18:48.679Z [DEBUG] - meetups.find
+2022-08-30T14:24:46.803Z [INFO] - Middlewares was initialized
+2022-08-30T14:24:46.814Z [INFO] - Server started on port 3001
+2022-08-30T14:29:55.698Z [INFO] - GET http://localhost:3001/meetupspdf
+2022-08-30T14:29:55.746Z [DEBUG] - meetups.find
+2022-08-30T14:31:53.438Z [INFO] - GET http://localhost:3001/meetupscsv
+2022-08-30T14:31:53.475Z [DEBUG] - meetups.find
+2022-08-30T15:03:51.432Z [INFO] - Middlewares was initialized
+2022-08-30T15:03:51.444Z [INFO] - Server started on port 3001
+2022-08-30T15:03:57.207Z [INFO] - GET http://localhost:3001/meetupspdf
+2022-08-30T15:03:57.279Z [DEBUG] - meetups.find
+2022-08-30T15:04:45.460Z [INFO] - Middlewares was initialized
+2022-08-30T15:04:45.474Z [INFO] - Server started on port 3001
+2022-08-30T15:04:49.998Z [INFO] - GET http://localhost:3001/meetupspdf
+2022-08-30T15:04:50.049Z [DEBUG] - meetups.find
+2022-08-30T15:07:28.339Z [INFO] - Middlewares was initialized
+2022-08-30T15:07:28.351Z [INFO] - Server started on port 3001
+2022-08-30T15:07:32.849Z [INFO] - GET http://localhost:3001/meetupspdf
+2022-08-30T15:07:32.915Z [DEBUG] - meetups.find
+2022-08-30T15:08:27.087Z [INFO] - Middlewares was initialized
+2022-08-30T15:08:27.101Z [INFO] - Server started on port 3001
+2022-08-30T15:08:30.679Z [INFO] - GET http://localhost:3001/meetupspdf
+2022-08-30T15:08:30.730Z [DEBUG] - meetups.find
+2022-08-30T15:15:45.050Z [INFO] - Middlewares was initialized
+2022-08-30T15:15:45.061Z [INFO] - Server started on port 3001
+2022-08-30T15:16:46.000Z [INFO] - GET http://localhost:3001/meetupspdf
+2022-08-30T15:16:46.053Z [DEBUG] - meetups.find
+2022-08-30T15:16:51.569Z [INFO] - GET http://localhost:3001/meetupspdf
+2022-08-30T15:16:51.603Z [DEBUG] - meetups.find
+2022-08-30T15:17:19.519Z [INFO] - Middlewares was initialized
+2022-08-30T15:17:19.533Z [INFO] - Server started on port 3001
+2022-08-30T15:17:21.673Z [INFO] - GET http://localhost:3001/meetupspdf
+2022-08-30T15:17:21.725Z [DEBUG] - meetups.find
+2022-08-30T15:18:43.041Z [INFO] - Middlewares was initialized
+2022-08-30T15:18:43.053Z [INFO] - Server started on port 3001
+2022-08-30T15:18:47.027Z [INFO] - GET http://localhost:3001/meetupspdf
+2022-08-30T15:18:47.082Z [DEBUG] - meetups.find

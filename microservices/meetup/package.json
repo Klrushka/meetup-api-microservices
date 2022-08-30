@@ -15,11 +15,20 @@
     "express": "^4.18.1",
     "joi": "^17.6.0",
     "mongoose": "^6.5.3",
+    "mongoose-csv-export": "^1.0.0",
+    "nice-json2csv": "^0.2.2",
+    "pdfkit": "^0.13.0",
+    "pdfkit-table": "^0.1.99",
     "request": "^2.88.2",
     "winston": "^3.8.1"
   },
   "devDependencies": {
     "@types/express": "^4.17.13",
-    "@types/request": "^2.48.8"
+    "@types/pdfkit": "^0.12.6",
+    "@types/request": "^2.48.8",
+    "@typescript-eslint/eslint-plugin": "^5.6.0",
+    "@typescript-eslint/parser": "^5.6.0",
+    "eslint": "^7.32.0",
+    "typescript": "^4.8.2"
   }
 }

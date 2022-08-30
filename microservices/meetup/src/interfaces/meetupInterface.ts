@@ -1,4 +1,6 @@
-interface MeetupInterface {
+import mongoose from 'mongoose'
+
+export interface MeetupInterface extends mongoose.Document {
     _id: {
         type: string,
     }

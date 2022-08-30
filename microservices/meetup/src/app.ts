@@ -5,7 +5,6 @@ import mongoose from 'mongoose'
 import {logger} from './services/logger'
 import { dbLogger } from './middlewares/logger'
 
-
 class App {
     public app: express.Application
     public port: string | number
