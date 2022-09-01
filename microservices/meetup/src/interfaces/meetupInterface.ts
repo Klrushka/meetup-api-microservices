@@ -1,13 +1,13 @@
 import mongoose from 'mongoose'
 
-export interface MeetupInterface extends mongoose.Document {
+export interface MeetupInterface extends mongoose.Document{
     _id: {
         type: string,
     }
     title: {
         type: string,
     },
-    description: {
+    description: {  
         type: string,
     },
     dueTime: {

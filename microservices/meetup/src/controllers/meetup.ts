@@ -15,6 +15,21 @@ class MeetupController {
     }
     async read(req: Request, res: Response, next: NextFunction) {
         try {
+            if (req.query.search) {
+                console.log(req.query.search)
+
+                // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+                // @ts-ignore
+                const esSearchMeetup = await meetup.search({
+                    query_string: {
+                        query: req.query.search
+                    }
+                }, { hydrate: true })
+                res.status(200).json(esSearchMeetup.body.hits.hydrated)
+                return
+            }
+
+
             const meetups = await meetup.find()
             res.status(200).json(meetups)
         } catch (err) {
@@ -55,6 +70,8 @@ class MeetupController {
     }
 
     async remove(req: Request, res: Response, next: NextFunction) {
+        const esDeletedMeetup = await meetup.findOne({ _id: req.params.id })
+        await esDeletedMeetup?.remove()
         const deletedMeetup = await meetup.deleteOne({ _id: req.params.id })
         res.status(204).json(deletedMeetup)
     }
@@ -67,19 +84,19 @@ class MeetupController {
 
     async readPdf(req: Request, res: Response, next: NextFunction) {
         const meetups = await meetup.find()
-                
+
         const rows = meetups.map(item => {
             const data = []
             data.push(item.id, item.title, item.description, item.dueTime, item.userId)
             return data
         })
-        
+
         const doc = new PDFDocument()
         const table = {
             headers: ['Id', 'Title', 'Description', 'DueTime', 'UserId'],
             rows,
-          }
-        
+        }
+
         await doc.table(table, {
             columnSpacing: 10
         })

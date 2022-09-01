@@ -10,10 +10,13 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@elastic/elasticsearch": "^8.2.1",
     "body-parser": "^1.20.0",
     "dotenv": "^16.0.1",
     "express": "^4.18.1",
     "joi": "^17.6.0",
+    "mongoosastic": "^5.0.0",
+    "mongoosastic-ts": "^6.0.0",
     "mongoose": "^6.5.3",
     "mongoose-csv-export": "^1.0.0",
     "nice-json2csv": "^0.2.2",

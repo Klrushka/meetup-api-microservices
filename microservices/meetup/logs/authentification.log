@@ -280,3 +280,310 @@
 2022-08-30T15:18:43.053Z [INFO] - Server started on port 3001
 2022-08-30T15:18:47.027Z [INFO] - GET http://localhost:3001/meetupspdf
 2022-08-30T15:18:47.082Z [DEBUG] - meetups.find
+2022-08-30T15:25:03.134Z [INFO] - Middlewares was initialized
+2022-08-30T15:25:03.144Z [INFO] - Server started on port 3001
+2022-08-30T15:25:03.825Z [INFO] - POST http://localhost:3001/meetups
+2022-08-30T15:25:03.890Z [DEBUG] - meetups.insertOne
+2022-08-30T15:25:04.557Z [INFO] - POST http://localhost:3001/meetups
+2022-08-30T15:25:04.602Z [DEBUG] - meetups.insertOne
+2022-08-30T15:25:05.121Z [INFO] - POST http://localhost:3001/meetups
+2022-08-30T15:25:05.167Z [DEBUG] - meetups.insertOne
+2022-08-30T15:25:05.679Z [INFO] - POST http://localhost:3001/meetups
+2022-08-30T15:25:05.720Z [DEBUG] - meetups.insertOne
+2022-08-30T15:25:06.235Z [INFO] - POST http://localhost:3001/meetups
+2022-08-30T15:25:06.272Z [DEBUG] - meetups.insertOne
+2022-08-30T15:25:06.805Z [INFO] - POST http://localhost:3001/meetups
+2022-08-30T15:25:06.841Z [DEBUG] - meetups.insertOne
+2022-08-30T15:25:07.424Z [INFO] - POST http://localhost:3001/meetups
+2022-08-30T15:25:07.461Z [DEBUG] - meetups.insertOne
+2022-08-30T15:25:07.922Z [INFO] - POST http://localhost:3001/meetups
+2022-08-30T15:25:07.960Z [DEBUG] - meetups.insertOne
+2022-08-30T15:25:08.460Z [INFO] - POST http://localhost:3001/meetups
+2022-08-30T15:25:08.495Z [DEBUG] - meetups.insertOne
+2022-08-30T15:25:08.999Z [INFO] - POST http://localhost:3001/meetups
+2022-08-30T15:25:09.039Z [DEBUG] - meetups.insertOne
+2022-08-30T15:25:09.591Z [INFO] - POST http://localhost:3001/meetups
+2022-08-30T15:25:09.624Z [DEBUG] - meetups.insertOne
+2022-08-30T15:25:10.108Z [INFO] - POST http://localhost:3001/meetups
+2022-08-30T15:25:10.141Z [DEBUG] - meetups.insertOne
+2022-08-30T15:25:12.658Z [INFO] - GET http://localhost:3001/meetupspdf
+2022-08-30T15:25:12.695Z [DEBUG] - meetups.find
+2022-08-30T15:25:29.498Z [INFO] - GET http://localhost:3001/meetupspdf
+2022-08-30T17:30:23.553Z [INFO] - GET http://localhost:3001/meetupscsv
+2022-08-30T17:30:23.620Z [DEBUG] - meetups.find
+2022-08-30T17:30:31.956Z [INFO] - GET http://localhost:3001/meetupspdf
+2022-08-30T17:30:32.005Z [DEBUG] - meetups.find
+2022-08-31T15:10:49.459Z [INFO] - Middlewares was initialized
+2022-08-31T15:10:49.472Z [INFO] - Server started on port 3001
+2022-08-31T15:13:07.725Z [INFO] - GET http://localhost:3001/meetups
+2022-08-31T15:13:07.966Z [DEBUG] - meetups.find
+2022-08-31T15:17:48.221Z [INFO] - Middlewares was initialized
+2022-08-31T15:17:48.240Z [INFO] - Server started on port 3001
+2022-08-31T15:17:53.606Z [INFO] - GET http://localhost:3001/meetups
+2022-08-31T15:17:53.704Z [DEBUG] - meetups.find
+2022-08-31T15:22:35.200Z [INFO] - Middlewares was initialized
+2022-08-31T15:22:35.220Z [INFO] - Server started on port 3001
+2022-08-31T15:22:43.530Z [INFO] - GET http://localhost:3001/meetups
+2022-08-31T15:22:43.646Z [DEBUG] - meetups.find
+2022-08-31T15:23:04.967Z [INFO] - POST http://localhost:3001/meetups
+2022-08-31T15:23:05.029Z [DEBUG] - meetups.insertOne
+2022-08-31T15:27:12.921Z [INFO] - Middlewares was initialized
+2022-08-31T15:27:12.938Z [INFO] - Server started on port 3001
+2022-08-31T15:27:23.437Z [INFO] - POST http://localhost:3001/meetups
+2022-08-31T15:27:23.635Z [DEBUG] - meetups.insertOne
+2022-08-31T16:35:45.575Z [INFO] - Middlewares was initialized
+2022-08-31T16:35:45.594Z [INFO] - Server started on port 3001
+2022-08-31T16:36:38.311Z [INFO] - POST http://localhost:3001/meetups
+2022-08-31T16:36:38.624Z [DEBUG] - meetups.insertOne
+2022-08-31T17:11:43.771Z [INFO] - Middlewares was initialized
+2022-08-31T17:11:43.791Z [INFO] - Server started on port 3001
+2022-08-31T17:11:52.551Z [INFO] - POST http://localhost:3001/meetups
+2022-08-31T17:11:52.947Z [DEBUG] - meetups.insertOne
+2022-08-31T17:11:53.019Z [DEBUG] - meetups.findOne
+2022-08-31T17:12:21.068Z [INFO] - GET http://localhost:3001/meetups
+2022-08-31T17:12:21.175Z [DEBUG] - meetups.find
+2022-08-31T17:13:49.402Z [INFO] - Middlewares was initialized
+2022-08-31T17:13:49.414Z [INFO] - Server started on port 3001
+2022-08-31T17:15:18.065Z [INFO] - GET http://localhost:3001/meetups
+2022-08-31T17:15:18.502Z [DEBUG] - meetups.find
+2022-08-31T17:15:57.945Z [INFO] - POST http://localhost:3001/meetups
+2022-08-31T17:15:58.016Z [DEBUG] - meetups.insertOne
+2022-08-31T17:15:58.042Z [DEBUG] - meetups.findOne
+2022-08-31T17:16:15.490Z [INFO] - POST http://localhost:3001/meetups
+2022-08-31T17:16:15.534Z [DEBUG] - meetups.insertOne
+2022-08-31T17:16:15.546Z [DEBUG] - meetups.findOne
+2022-08-31T17:21:37.066Z [INFO] - POST http://localhost:3001/meetups
+2022-08-31T17:21:37.883Z [DEBUG] - meetups.insertOne
+2022-08-31T17:21:38.131Z [DEBUG] - meetups.findOne
+2022-08-31T17:25:01.107Z [INFO] - Middlewares was initialized
+2022-08-31T17:25:01.127Z [INFO] - Server started on port 3001
+2022-08-31T17:25:18.312Z [INFO] - POST http://localhost:3001/meetups
+2022-08-31T17:25:18.653Z [DEBUG] - meetups.insertOne
+2022-08-31T17:25:29.177Z [INFO] - POST http://localhost:3001/meetups
+2022-08-31T17:25:29.243Z [DEBUG] - meetups.insertOne
+2022-08-31T17:28:06.802Z [INFO] - Middlewares was initialized
+2022-08-31T17:28:06.814Z [INFO] - Server started on port 3001
+2022-08-31T17:28:34.927Z [INFO] - POST http://localhost:3001/meetups
+2022-08-31T17:28:35.168Z [DEBUG] - meetups.insertOne
+2022-08-31T17:28:45.769Z [INFO] - GET http://localhost:3001/meetups
+2022-08-31T17:28:45.834Z [DEBUG] - meetups.find
+2022-08-31T17:29:08.596Z [INFO] - GET http://localhost:3001/meetups
+2022-08-31T17:29:08.673Z [DEBUG] - meetups.find
+2022-08-31T17:39:59.323Z [INFO] - POST http://localhost:3001/meetups
+2022-08-31T17:39:59.784Z [DEBUG] - meetups.insertOne
+2022-08-31T17:48:32.881Z [INFO] - POST http://localhost:3001/meetups
+2022-08-31T17:48:33.226Z [DEBUG] - meetups.insertOne
+2022-08-31T17:57:40.470Z [INFO] - Middlewares was initialized
+2022-08-31T17:57:40.488Z [INFO] - Server started on port 3001
+2022-08-31T17:57:59.978Z [INFO] - POST http://localhost:3001/meetups
+2022-08-31T17:58:00.245Z [DEBUG] - meetups.insertOne
+2022-08-31T17:58:00.305Z [DEBUG] - meetups.findOne
+2022-08-31T18:07:13.600Z [INFO] - Middlewares was initialized
+2022-08-31T18:07:13.618Z [INFO] - Server started on port 3001
+2022-08-31T18:08:32.936Z [INFO] - POST http://localhost:3001/meetups
+2022-08-31T18:08:33.202Z [DEBUG] - meetups.insertOne
+2022-08-31T18:16:05.815Z [INFO] - GET http://localhost:3001/meetups
+2022-08-31T18:16:06.445Z [DEBUG] - meetups.find
+2022-09-01T13:24:47.900Z [INFO] - Middlewares was initialized
+2022-09-01T13:24:47.911Z [INFO] - Server started on port 3001
+2022-09-01T13:25:25.180Z [INFO] - GET http://localhost:3001/meetups
+2022-09-01T13:25:25.339Z [DEBUG] - meetups.find
+2022-09-01T13:25:37.734Z [INFO] - POST http://localhost:3001/meetups
+2022-09-01T13:25:37.796Z [DEBUG] - meetups.insertOne
+2022-09-01T13:26:03.667Z [INFO] - POST http://localhost:3001/meetups
+2022-09-01T13:26:03.703Z [DEBUG] - meetups.insertOne
+2022-09-01T13:26:26.336Z [INFO] - DELETE http://localhost:3001/meetups/6310b2eb460bb1b508a41904
+2022-09-01T13:26:48.209Z [INFO] - DELETE http://localhost:3001/meetups/6310b2eb460bb1b508a41904
+2022-09-01T13:26:48.248Z [DEBUG] - meetups.deleteOne
+2022-09-01T13:29:26.104Z [INFO] - POST http://localhost:3001/meetups
+2022-09-01T13:29:26.143Z [DEBUG] - meetups.insertOne
+2022-09-01T13:31:47.786Z [INFO] - Middlewares was initialized
+2022-09-01T13:31:47.799Z [INFO] - Server started on port 3001
+2022-09-01T13:37:54.617Z [INFO] - GET http://localhost:3001/meetups
+2022-09-01T13:37:54.727Z [DEBUG] - meetups.find
+2022-09-01T13:38:29.754Z [INFO] - GET http://localhost:3001/meetups/630f7cd9a339574ea6934a8b
+2022-09-01T13:38:29.792Z [DEBUG] - meetups.findOne
+2022-09-01T13:38:36.171Z [INFO] - DELETE http://localhost:3001/meetups/630f7cd9a339574ea6934a8b
+2022-09-01T13:38:36.220Z [DEBUG] - meetups.deleteOne
+2022-09-01T13:40:27.486Z [INFO] - Middlewares was initialized
+2022-09-01T13:40:27.496Z [INFO] - Server started on port 3001
+2022-09-01T13:41:02.408Z [INFO] - POST http://localhost:3001/meetups
+2022-09-01T13:41:02.505Z [DEBUG] - meetups.insertOne
+2022-09-01T13:41:49.778Z [INFO] - DELETE http://localhost:3001/meetups/6310b66e3a839d2cf2526c5a
+2022-09-01T13:41:49.821Z [DEBUG] - meetups.remove
+2022-09-01T15:28:15.990Z [INFO] - Middlewares was initialized
+2022-09-01T15:28:16.019Z [INFO] - Server started on port 3001
+2022-09-01T15:28:44.655Z [INFO] - GET http://localhost:3001/meetups/630f7cd9a339574ea6934a8b
+2022-09-01T15:28:44.881Z [DEBUG] - meetups.findOne
+2022-09-01T15:28:55.219Z [INFO] - GET http://localhost:3001/meetups/
+2022-09-01T15:28:55.315Z [DEBUG] - meetups.find
+2022-09-01T15:29:04.335Z [INFO] - POST http://localhost:3001/meetups
+2022-09-01T15:29:04.445Z [DEBUG] - meetups.insertOne
+2022-09-01T15:29:53.733Z [INFO] - DELETE http://localhost:3001/meetups/6310cfc071494f2997a18108
+2022-09-01T15:29:53.868Z [DEBUG] - meetups.findOne
+2022-09-01T15:29:53.896Z [DEBUG] - meetups.deleteOne
+2022-09-01T15:29:53.900Z [DEBUG] - meetups.deleteOne
+2022-09-01T15:30:41.076Z [INFO] - DELETE http://localhost:3001/meetups/630f7cd9a339574ea6934a8b
+2022-09-01T15:30:41.135Z [DEBUG] - meetups.findOne
+2022-09-01T15:30:41.143Z [DEBUG] - meetups.deleteOne
+2022-09-01T15:32:21.013Z [INFO] - POST http://localhost:3001/meetups
+2022-09-01T15:32:21.206Z [DEBUG] - meetups.insertOne
+2022-09-01T15:33:12.368Z [INFO] - DELETE http://localhost:3001/meetups/6310d08571494f2997a1810f
+2022-09-01T15:33:12.470Z [DEBUG] - meetups.findOne
+2022-09-01T15:33:12.484Z [DEBUG] - meetups.deleteOne
+2022-09-01T15:33:12.489Z [DEBUG] - meetups.deleteOne
+2022-09-01T15:52:45.762Z [INFO] - Middlewares was initialized
+2022-09-01T15:52:45.796Z [INFO] - Server started on port 3001
+2022-09-01T15:53:23.665Z [INFO] - GET http://localhost:3001/meetups?title=m
+2022-09-01T15:55:33.331Z [INFO] - Middlewares was initialized
+2022-09-01T15:55:33.350Z [INFO] - Server started on port 3001
+2022-09-01T15:55:38.059Z [INFO] - GET http://localhost:3001/meetups?title=m
+2022-09-01T16:17:21.633Z [INFO] - Middlewares was initialized
+2022-09-01T16:17:21.655Z [INFO] - Server started on port 3001
+2022-09-01T16:17:30.076Z [INFO] - GET http://localhost:3001/meetups?title=m
+2022-09-01T16:17:30.569Z [DEBUG] - meetups.find
+2022-09-01T16:18:09.226Z [INFO] - GET http://localhost:3001/meetups?title=t
+2022-09-01T16:18:09.438Z [DEBUG] - meetups.find
+2022-09-01T16:18:20.747Z [INFO] - GET http://localhost:3001/meetups?title=titl
+2022-09-01T16:18:20.841Z [DEBUG] - meetups.find
+2022-09-01T16:18:45.453Z [INFO] - GET http://localhost:3001/meetups?title=title
+2022-09-01T16:18:45.543Z [DEBUG] - meetups.find
+2022-09-01T16:23:35.327Z [INFO] - Middlewares was initialized
+2022-09-01T16:23:35.347Z [INFO] - Server started on port 3001
+2022-09-01T16:23:59.896Z [INFO] - GET http://localhost:3001/meetups?title=ti
+2022-09-01T16:24:00.253Z [DEBUG] - meetups.find
+2022-09-01T16:25:44.581Z [INFO] - Middlewares was initialized
+2022-09-01T16:25:44.609Z [INFO] - Server started on port 3001
+2022-09-01T16:25:55.471Z [INFO] - GET http://localhost:3001/meetups?title=ti
+2022-09-01T16:26:34.270Z [INFO] - Middlewares was initialized
+2022-09-01T16:26:34.289Z [INFO] - Server started on port 3001
+2022-09-01T16:29:10.384Z [INFO] - GET http://localhost:3001/meetups?title=ti
+2022-09-01T16:31:45.413Z [INFO] - Middlewares was initialized
+2022-09-01T16:31:45.438Z [INFO] - Server started on port 3001
+2022-09-01T16:32:18.910Z [INFO] - GET http://localhost:3001/meetups?title=ti
+2022-09-01T16:32:19.242Z [DEBUG] - meetups.find
+2022-09-01T16:34:27.752Z [INFO] - Middlewares was initialized
+2022-09-01T16:34:27.772Z [INFO] - Server started on port 3001
+2022-09-01T16:34:33.494Z [INFO] - GET http://localhost:3001/meetups?title=ti
+2022-09-01T16:34:33.790Z [DEBUG] - meetups.find
+2022-09-01T16:34:33.809Z [DEBUG] - meetups.find
+2022-09-01T16:36:13.836Z [INFO] - Middlewares was initialized
+2022-09-01T16:36:13.859Z [INFO] - Server started on port 3001
+2022-09-01T16:37:15.127Z [INFO] - Middlewares was initialized
+2022-09-01T16:37:15.153Z [INFO] - Server started on port 3001
+2022-09-01T16:38:06.052Z [INFO] - GET http://localhost:3001/meetups?title=ti
+2022-09-01T16:38:06.332Z [DEBUG] - meetups.find
+2022-09-01T16:38:06.350Z [DEBUG] - meetups.find
+2022-09-01T16:39:43.236Z [INFO] - Middlewares was initialized
+2022-09-01T16:39:43.258Z [INFO] - Server started on port 3001
+2022-09-01T16:39:56.284Z [INFO] - GET http://localhost:3001/meetups?title=ti
+2022-09-01T16:39:56.700Z [DEBUG] - meetups.find
+2022-09-01T16:42:13.589Z [INFO] - Middlewares was initialized
+2022-09-01T16:42:13.613Z [INFO] - Server started on port 3001
+2022-09-01T16:42:34.106Z [INFO] - GET http://localhost:3001/meetups?title=ti
+2022-09-01T16:42:34.313Z [DEBUG] - meetups.find
+2022-09-01T16:49:11.755Z [INFO] - Middlewares was initialized
+2022-09-01T16:49:11.776Z [INFO] - Server started on port 3001
+2022-09-01T16:49:19.843Z [INFO] - GET http://localhost:3001/meetups?title=ti
+2022-09-01T16:49:20.115Z [DEBUG] - meetups.find
+2022-09-01T16:49:20.215Z [DEBUG] - meetups.find
+2022-09-01T16:50:26.197Z [INFO] - GET http://localhost:3001/meetups?title=ti
+2022-09-01T16:50:27.540Z [DEBUG] - meetups.find
+2022-09-01T16:50:27.566Z [DEBUG] - meetups.find
+2022-09-01T16:51:24.628Z [INFO] - Middlewares was initialized
+2022-09-01T16:51:24.663Z [INFO] - Server started on port 3001
+2022-09-01T16:51:30.955Z [INFO] - GET http://localhost:3001/meetups?title=ti
+2022-09-01T16:51:31.204Z [DEBUG] - meetups.find
+2022-09-01T16:51:31.306Z [DEBUG] - meetups.find
+2022-09-01T16:52:10.444Z [INFO] - Middlewares was initialized
+2022-09-01T16:52:10.466Z [INFO] - Server started on port 3001
+2022-09-01T16:52:23.552Z [INFO] - GET http://localhost:3001/meetups?title=ti
+2022-09-01T16:52:23.733Z [DEBUG] - meetups.find
+2022-09-01T16:52:23.748Z [DEBUG] - meetups.find
+2022-09-01T16:56:06.592Z [INFO] - Middlewares was initialized
+2022-09-01T16:56:06.621Z [INFO] - Server started on port 3001
+2022-09-01T16:56:13.558Z [INFO] - GET http://localhost:3001/meetups?title=ti
+2022-09-01T16:56:14.040Z [DEBUG] - meetups.find
+2022-09-01T16:58:02.823Z [INFO] - Middlewares was initialized
+2022-09-01T16:58:02.847Z [INFO] - Server started on port 3001
+2022-09-01T16:58:09.447Z [INFO] - GET http://localhost:3001/meetups?title=ti
+2022-09-01T16:58:54.215Z [INFO] - Middlewares was initialized
+2022-09-01T16:58:54.241Z [INFO] - Server started on port 3001
+2022-09-01T16:59:24.401Z [INFO] - GET http://localhost:3001/meetups?title=ti
+2022-09-01T16:59:25.272Z [DEBUG] - meetups.find
+2022-09-01T17:00:47.982Z [INFO] - Middlewares was initialized
+2022-09-01T17:00:48.014Z [INFO] - Server started on port 3001
+2022-09-01T17:00:53.243Z [INFO] - GET http://localhost:3001/meetups?title=ti
+2022-09-01T17:00:53.574Z [DEBUG] - meetups.find
+2022-09-01T17:02:34.721Z [INFO] - Middlewares was initialized
+2022-09-01T17:02:34.765Z [INFO] - Server started on port 3001
+2022-09-01T17:02:45.143Z [INFO] - GET http://localhost:3001/meetups?title=ti
+2022-09-01T17:02:45.699Z [DEBUG] - meetups.find
+2022-09-01T17:04:46.678Z [INFO] - Middlewares was initialized
+2022-09-01T17:04:46.706Z [INFO] - Server started on port 3001
+2022-09-01T17:04:53.574Z [INFO] - GET http://localhost:3001/meetups?title=ti
+2022-09-01T17:04:53.973Z [DEBUG] - meetups.find
+2022-09-01T17:08:50.551Z [INFO] - Middlewares was initialized
+2022-09-01T17:08:50.571Z [INFO] - Server started on port 3001
+2022-09-01T17:09:13.385Z [INFO] - GET http://localhost:3001/meetups?title=ti
+2022-09-01T17:09:13.666Z [DEBUG] - meetups.find
+2022-09-01T17:09:13.744Z [DEBUG] - meetups.find
+2022-09-01T17:09:37.145Z [INFO] - Middlewares was initialized
+2022-09-01T17:09:37.160Z [INFO] - Server started on port 3001
+2022-09-01T17:11:53.604Z [INFO] - GET http://localhost:3001/meetups?title=ti
+2022-09-01T17:11:54.485Z [DEBUG] - meetups.find
+2022-09-01T17:11:54.925Z [DEBUG] - meetups.find
+2022-09-01T17:14:03.360Z [INFO] - Middlewares was initialized
+2022-09-01T17:14:03.378Z [INFO] - Server started on port 3001
+2022-09-01T17:14:15.586Z [INFO] - GET http://localhost:3001/meetups?title=ti
+2022-09-01T17:14:15.985Z [DEBUG] - meetups.find
+2022-09-01T17:14:16.018Z [DEBUG] - meetups.find
+2022-09-01T17:14:57.510Z [INFO] - Middlewares was initialized
+2022-09-01T17:14:57.524Z [INFO] - Server started on port 3001
+2022-09-01T17:15:19.605Z [INFO] - GET http://localhost:3001/meetups?title=ti
+2022-09-01T17:15:20.466Z [DEBUG] - meetups.find
+2022-09-01T17:15:20.499Z [DEBUG] - meetups.find
+2022-09-01T17:16:25.709Z [INFO] - Middlewares was initialized
+2022-09-01T17:16:25.727Z [INFO] - Server started on port 3001
+2022-09-01T17:16:42.625Z [INFO] - GET http://localhost:3001/meetups?title=ti
+2022-09-01T17:16:43.030Z [DEBUG] - meetups.find
+2022-09-01T17:16:43.083Z [DEBUG] - meetups.find
+2022-09-01T17:19:06.390Z [INFO] - GET http://localhost:3001/meetups?title=t1
+2022-09-01T17:19:06.761Z [DEBUG] - meetups.find
+2022-09-01T17:19:06.795Z [DEBUG] - meetups.find
+2022-09-01T17:21:47.901Z [INFO] - Middlewares was initialized
+2022-09-01T17:21:47.917Z [INFO] - Server started on port 3001
+2022-09-01T17:21:53.685Z [INFO] - GET http://localhost:3001/meetups?title=t1
+2022-09-01T17:21:53.809Z [DEBUG] - meetups.find
+2022-09-01T17:21:53.827Z [DEBUG] - meetups.find
+2022-09-01T17:22:00.975Z [INFO] - GET http://localhost:3001/meetups?title=t
+2022-09-01T17:22:01.069Z [DEBUG] - meetups.find
+2022-09-01T17:22:01.086Z [DEBUG] - meetups.find
+2022-09-01T17:22:12.694Z [INFO] - GET http://localhost:3001/meetups?title=63
+2022-09-01T17:22:12.839Z [DEBUG] - meetups.find
+2022-09-01T17:22:12.850Z [DEBUG] - meetups.find
+2022-09-01T17:22:26.533Z [INFO] - GET http://localhost:3001/meetups?title=1
+2022-09-01T17:22:26.697Z [DEBUG] - meetups.find
+2022-09-01T17:22:26.723Z [DEBUG] - meetups.find
+2022-09-01T17:22:53.245Z [INFO] - GET http://localhost:3001/meetups?title=2
+2022-09-01T17:22:53.300Z [DEBUG] - meetups.find
+2022-09-01T17:22:53.321Z [DEBUG] - meetups.find
+2022-09-01T17:22:59.881Z [INFO] - GET http://localhost:3001/meetups?title=title
+2022-09-01T17:22:59.926Z [DEBUG] - meetups.find
+2022-09-01T17:22:59.935Z [DEBUG] - meetups.find
+2022-09-01T17:23:04.762Z [INFO] - GET http://localhost:3001/meetups?title=title1
+2022-09-01T17:23:04.811Z [DEBUG] - meetups.find
+2022-09-01T17:23:04.817Z [DEBUG] - meetups.find
+2022-09-01T17:27:53.365Z [INFO] - Middlewares was initialized
+2022-09-01T17:27:53.380Z [INFO] - Server started on port 3001
+2022-09-01T17:30:23.978Z [INFO] - GET http://localhost:3001/meetups?search=title1
+2022-09-01T17:31:00.332Z [INFO] - Middlewares was initialized
+2022-09-01T17:31:00.347Z [INFO] - Server started on port 3001
+2022-09-01T17:31:10.196Z [INFO] - GET http://localhost:3001/meetups?search=title1
+2022-09-01T17:31:10.298Z [DEBUG] - meetups.find
+2022-09-01T17:31:13.640Z [INFO] - GET http://localhost:3001/meetups?search=titl
+2022-09-01T17:31:13.691Z [DEBUG] - meetups.find
+2022-09-01T17:31:17.325Z [INFO] - GET http://localhost:3001/meetups?search=t
+2022-09-01T17:31:17.370Z [DEBUG] - meetups.find
+2022-09-01T17:31:28.992Z [INFO] - GET http://localhost:3001/meetups?search=1
+2022-09-01T17:31:29.045Z [DEBUG] - meetups.find
