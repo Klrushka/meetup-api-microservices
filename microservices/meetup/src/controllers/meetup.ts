@@ -21,10 +21,13 @@ class MeetupController {
                 // eslint-disable-next-line @typescript-eslint/ban-ts-comment
                 // @ts-ignore
                 const esSearchMeetup = await meetup.search({
-                    query_string: {
-                        query: req.query.search
+                    match: {
+                      title: {
+                        query: req.query.search,
+                        fuzziness: 'auto'
+                      }
                     }
-                }, { hydrate: true })
+                  }, { hydrate: true })
                 res.status(200).json(esSearchMeetup.body.hits.hydrated)
                 return
             }
