@@ -1,5 +1,5 @@
 import App from './app'
-import { initRoutes } from './Routes/authentification'
+import { initRoutes } from './routes/authentification'
 
 const app = new App([initRoutes()])
 

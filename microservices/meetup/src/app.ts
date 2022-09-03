@@ -9,8 +9,6 @@ class App {
     public app: express.Application
     public port: string | number
 
-
-
     constructor(routes: Router[]) {
         this.app = express()
         this.port = process.env.PORT ?? 3001

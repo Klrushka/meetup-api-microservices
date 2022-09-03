@@ -1,5 +1,5 @@
-import { Request, Response, NextFunction } from 'express';
-import { meetupValidator } from '../validators/meetup';
+import { Request, Response, NextFunction } from 'express'
+import { meetupValidator } from '../validators/meetup'
 
 class Validator {
     validateMeetup(req: Request, res: Response, next: NextFunction) {

@@ -473,3 +473,472 @@
 2022-08-28T14:16:48.304Z [DEBUG] - users.findOne
 2022-08-28T14:16:48.425Z [DEBUG] - users.insertOne
 2022-08-28T14:16:51.326Z [DEBUG] - Message sent: <1defa52c-0c94-4067-059b-dfe3798910c6@gmail.com>
+2022-08-29T10:33:41.567Z [INFO] - Middlewares was initialized
+2022-08-29T10:33:41.574Z [INFO] - Server started on port 3000
+2022-08-29T10:34:33.966Z [INFO] - Middlewares was initialized
+2022-08-29T10:34:33.978Z [INFO] - Server started on port 3000
+2022-08-29T10:46:25.861Z [INFO] - Middlewares was initialized
+2022-08-29T10:46:25.870Z [INFO] - Server started on port 3000
+2022-08-29T10:46:31.621Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-08-29T11:09:54.111Z [INFO] - Middlewares was initialized
+2022-08-29T11:09:54.125Z [INFO] - Server started on port 3000
+2022-08-29T11:10:00.157Z [INFO] - POST http://localhost:3000/auth/login/
+2022-08-29T11:10:13.961Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-08-29T11:16:09.463Z [INFO] - Middlewares was initialized
+2022-08-29T11:16:09.474Z [INFO] - Server started on port 3000
+2022-08-29T11:16:11.376Z [INFO] - POST http://localhost:3000/auth/login/
+2022-08-29T11:16:11.390Z [DEBUG] - users.findOne
+2022-08-29T11:16:33.394Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-08-29T11:16:33.405Z [DEBUG] - users.findOne
+2022-08-29T11:17:15.329Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-08-29T11:17:15.336Z [DEBUG] - users.findOne
+2022-08-29T11:17:44.277Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-08-29T11:17:44.284Z [DEBUG] - users.findOne
+2022-08-29T11:17:50.885Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-08-29T11:17:50.891Z [DEBUG] - users.findOne
+2022-08-29T11:18:30.497Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-08-29T18:24:27.071Z [INFO] - Middlewares was initialized
+2022-08-29T18:24:27.080Z [INFO] - Server started on port 3000
+2022-08-29T18:25:11.528Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-08-29T18:26:34.387Z [INFO] - Middlewares was initialized
+2022-08-29T18:26:34.398Z [INFO] - Server started on port 3000
+2022-08-29T18:26:37.265Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-08-29T18:27:11.751Z [INFO] - Middlewares was initialized
+2022-08-29T18:27:11.766Z [INFO] - Server started on port 3000
+2022-08-29T18:27:13.231Z [INFO] - POST http://localhost:3000/auth/login/
+2022-08-29T18:27:13.244Z [DEBUG] - users.findOne
+2022-08-29T18:27:26.821Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-08-29T18:27:26.836Z [DEBUG] - users.findOne
+2022-08-29T18:30:52.854Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-08-29T18:30:57.840Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-08-29T18:31:06.406Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-08-29T18:31:07.909Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-08-29T18:31:09.334Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-08-29T18:32:01.417Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-08-29T18:32:08.473Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-08-29T18:32:08.480Z [DEBUG] - users.findOne
+2022-08-29T18:32:11.834Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-08-29T18:32:11.845Z [DEBUG] - users.findOne
+2022-08-29T18:32:12.824Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-08-29T18:32:12.828Z [DEBUG] - users.findOne
+2022-08-29T18:32:13.615Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-08-29T18:32:13.621Z [DEBUG] - users.findOne
+2022-08-29T18:32:14.427Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-08-29T18:32:14.435Z [DEBUG] - users.findOne
+2022-08-29T18:32:15.170Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-08-29T18:32:15.177Z [DEBUG] - users.findOne
+2022-08-29T18:32:16.211Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-08-29T18:32:16.216Z [DEBUG] - users.findOne
+2022-08-29T18:33:57.646Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-08-29T18:33:57.650Z [DEBUG] - users.findOne
+2022-08-29T18:34:34.856Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-08-29T18:34:34.862Z [DEBUG] - users.findOne
+2022-08-29T18:35:12.405Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-08-29T18:35:12.411Z [DEBUG] - users.findOne
+2022-08-29T18:37:13.570Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-08-29T18:37:13.575Z [DEBUG] - users.findOne
+2022-08-29T18:37:22.516Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-08-29T18:46:43.586Z [INFO] - Middlewares was initialized
+2022-08-29T18:46:43.599Z [INFO] - Server started on port 3000
+2022-08-29T18:50:43.646Z [INFO] - Middlewares was initialized
+2022-08-29T18:50:43.657Z [INFO] - Server started on port 3000
+2022-08-29T18:50:47.622Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-08-29T18:50:52.895Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-08-29T18:50:52.906Z [DEBUG] - users.findOne
+2022-08-29T18:51:11.457Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-08-29T18:51:32.589Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-08-29T18:51:32.592Z [DEBUG] - users.findOne
+2022-08-29T18:51:40.945Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-08-29T18:51:40.947Z [DEBUG] - users.findOne
+2022-08-29T18:53:06.212Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-08-29T18:53:06.214Z [DEBUG] - users.findOne
+2022-08-30T09:24:40.340Z [INFO] - Middlewares was initialized
+2022-08-30T09:24:40.348Z [INFO] - Server started on port 3000
+2022-08-30T09:57:15.389Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-08-30T09:57:15.400Z [DEBUG] - users.findOne
+2022-08-30T09:59:16.990Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-08-30T09:59:16.994Z [DEBUG] - users.findOne
+2022-08-30T10:03:06.628Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-08-30T10:03:06.630Z [DEBUG] - users.findOne
+2022-08-30T10:06:36.213Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-08-30T10:06:36.216Z [DEBUG] - users.findOne
+2022-08-30T10:06:41.998Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-08-30T10:06:42.001Z [DEBUG] - users.findOne
+2022-08-30T10:06:55.107Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-08-30T10:06:55.110Z [DEBUG] - users.findOne
+2022-08-30T10:31:39.952Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-08-30T10:31:39.955Z [DEBUG] - users.findOne
+2022-08-30T10:36:16.290Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-08-30T10:36:16.292Z [DEBUG] - users.findOne
+2022-08-30T10:38:08.628Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-08-30T10:38:08.636Z [DEBUG] - users.findOne
+2022-08-30T12:47:01.482Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-08-30T12:47:01.485Z [DEBUG] - users.findOne
+2022-08-30T12:47:36.071Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-08-30T12:47:36.072Z [DEBUG] - users.findOne
+2022-08-30T12:48:42.240Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-08-30T12:48:42.243Z [DEBUG] - users.findOne
+2022-08-30T12:49:21.544Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-08-30T12:49:21.546Z [DEBUG] - users.findOne
+2022-08-30T12:50:06.132Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-08-30T12:50:06.134Z [DEBUG] - users.findOne
+2022-08-30T12:50:07.928Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-08-30T12:50:07.930Z [DEBUG] - users.findOne
+2022-08-30T12:50:20.215Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-08-30T12:50:20.217Z [DEBUG] - users.findOne
+2022-08-30T12:50:24.516Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-08-30T12:50:24.517Z [DEBUG] - users.findOne
+2022-08-30T12:50:34.134Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-08-30T12:50:41.160Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-08-30T12:50:41.163Z [DEBUG] - users.findOne
+2022-08-30T12:54:45.722Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-08-30T12:54:45.723Z [DEBUG] - users.findOne
+2022-08-30T12:55:58.069Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-08-30T12:55:58.070Z [DEBUG] - users.findOne
+2022-08-30T12:56:41.501Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-08-30T12:56:41.503Z [DEBUG] - users.findOne
+2022-08-30T12:56:52.530Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-08-30T12:56:52.532Z [DEBUG] - users.findOne
+2022-08-30T12:57:19.949Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-08-30T12:57:19.951Z [DEBUG] - users.findOne
+2022-08-30T12:57:46.425Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-08-30T12:57:46.427Z [DEBUG] - users.findOne
+2022-08-30T13:02:06.114Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-08-30T13:02:06.115Z [DEBUG] - users.findOne
+2022-08-30T13:03:13.009Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-08-30T13:03:13.011Z [DEBUG] - users.findOne
+2022-08-30T13:05:43.993Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-08-30T13:05:43.995Z [DEBUG] - users.findOne
+2022-08-30T13:06:27.855Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-08-30T13:06:27.856Z [DEBUG] - users.findOne
+2022-08-30T13:13:13.483Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-08-30T13:13:13.485Z [DEBUG] - users.findOne
+2022-08-30T13:13:17.345Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-08-30T13:13:17.346Z [DEBUG] - users.findOne
+2022-08-30T13:13:48.951Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-08-30T13:13:48.952Z [DEBUG] - users.findOne
+2022-08-30T13:13:53.604Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-08-30T13:13:53.606Z [DEBUG] - users.findOne
+2022-08-30T13:13:56.936Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-08-30T13:13:56.938Z [DEBUG] - users.findOne
+2022-08-30T14:18:48.630Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-08-30T14:18:48.640Z [DEBUG] - users.findOne
+2022-08-30T14:29:55.712Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-08-30T14:29:55.714Z [DEBUG] - users.findOne
+2022-08-30T14:31:53.444Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-08-30T14:31:53.448Z [DEBUG] - users.findOne
+2022-08-30T15:03:57.227Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-08-30T15:03:57.231Z [DEBUG] - users.findOne
+2022-08-30T15:04:50.017Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-08-30T15:04:50.017Z [DEBUG] - users.findOne
+2022-08-30T15:07:32.866Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-08-30T15:07:32.867Z [DEBUG] - users.findOne
+2022-08-30T15:08:30.696Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-08-30T15:08:30.697Z [DEBUG] - users.findOne
+2022-08-30T15:16:46.015Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-08-30T15:16:46.017Z [DEBUG] - users.findOne
+2022-08-30T15:16:51.575Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-08-30T15:16:51.576Z [DEBUG] - users.findOne
+2022-08-30T15:17:21.686Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-08-30T15:17:21.688Z [DEBUG] - users.findOne
+2022-08-30T15:18:47.044Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-08-30T15:18:47.045Z [DEBUG] - users.findOne
+2022-08-30T15:25:03.843Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-08-30T15:25:03.845Z [DEBUG] - users.findOne
+2022-08-30T15:25:04.565Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-08-30T15:25:04.566Z [DEBUG] - users.findOne
+2022-08-30T15:25:05.126Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-08-30T15:25:05.127Z [DEBUG] - users.findOne
+2022-08-30T15:25:05.686Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-08-30T15:25:05.689Z [DEBUG] - users.findOne
+2022-08-30T15:25:06.241Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-08-30T15:25:06.243Z [DEBUG] - users.findOne
+2022-08-30T15:25:06.811Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-08-30T15:25:06.812Z [DEBUG] - users.findOne
+2022-08-30T15:25:07.429Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-08-30T15:25:07.431Z [DEBUG] - users.findOne
+2022-08-30T15:25:07.926Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-08-30T15:25:07.927Z [DEBUG] - users.findOne
+2022-08-30T15:25:08.467Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-08-30T15:25:08.468Z [DEBUG] - users.findOne
+2022-08-30T15:25:09.005Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-08-30T15:25:09.006Z [DEBUG] - users.findOne
+2022-08-30T15:25:09.596Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-08-30T15:25:09.598Z [DEBUG] - users.findOne
+2022-08-30T15:25:10.114Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-08-30T15:25:10.115Z [DEBUG] - users.findOne
+2022-08-30T15:25:12.664Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-08-30T15:25:12.665Z [DEBUG] - users.findOne
+2022-08-30T15:25:29.509Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-08-30T17:30:23.562Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-08-30T17:30:23.565Z [DEBUG] - users.findOne
+2022-08-30T17:30:31.963Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-08-30T17:30:31.968Z [DEBUG] - users.findOne
+2022-08-31T15:10:41.854Z [INFO] - Middlewares was initialized
+2022-08-31T15:10:41.877Z [INFO] - Server started on port 3000
+2022-08-31T15:13:07.869Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-08-31T15:13:07.891Z [DEBUG] - users.findOne
+2022-08-31T15:17:53.634Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-08-31T15:17:53.652Z [DEBUG] - users.findOne
+2022-08-31T15:22:43.569Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-08-31T15:22:43.581Z [DEBUG] - users.findOne
+2022-08-31T15:23:04.978Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-08-31T15:23:04.981Z [DEBUG] - users.findOne
+2022-08-31T15:27:23.519Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-08-31T15:27:23.541Z [DEBUG] - users.findOne
+2022-08-31T16:36:38.421Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-08-31T16:36:38.466Z [DEBUG] - users.findOne
+2022-08-31T17:11:52.696Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-08-31T17:11:52.744Z [DEBUG] - users.findOne
+2022-08-31T17:12:21.090Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-08-31T17:12:21.092Z [DEBUG] - users.findOne
+2022-08-31T17:15:18.243Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-08-31T17:15:18.355Z [DEBUG] - users.findOne
+2022-08-31T17:15:57.955Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-08-31T17:15:57.959Z [DEBUG] - users.findOne
+2022-08-31T17:16:15.500Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-08-31T17:16:15.502Z [DEBUG] - users.findOne
+2022-08-31T17:21:37.479Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-08-31T17:21:37.537Z [DEBUG] - users.findOne
+2022-08-31T17:25:18.476Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-08-31T17:25:18.517Z [DEBUG] - users.findOne
+2022-08-31T17:25:29.191Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-08-31T17:25:29.197Z [DEBUG] - users.findOne
+2022-08-31T17:28:35.021Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-08-31T17:28:35.051Z [DEBUG] - users.findOne
+2022-08-31T17:28:45.777Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-08-31T17:28:45.780Z [DEBUG] - users.findOne
+2022-08-31T17:29:08.613Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-08-31T17:29:08.617Z [DEBUG] - users.findOne
+2022-08-31T17:39:59.546Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-08-31T17:39:59.618Z [DEBUG] - users.findOne
+2022-08-31T17:48:33.040Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-08-31T17:48:33.095Z [DEBUG] - users.findOne
+2022-08-31T17:58:00.082Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-08-31T17:58:00.126Z [DEBUG] - users.findOne
+2022-08-31T18:08:33.029Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-08-31T18:08:33.066Z [DEBUG] - users.findOne
+2022-08-31T18:16:06.136Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-08-31T18:16:06.194Z [DEBUG] - users.findOne
+2022-09-01T13:24:42.933Z [INFO] - Middlewares was initialized
+2022-09-01T13:24:42.945Z [INFO] - Server started on port 3000
+2022-09-01T13:25:25.258Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-09-01T13:25:25.271Z [DEBUG] - users.findOne
+2022-09-01T13:25:37.743Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-09-01T13:25:37.745Z [DEBUG] - users.findOne
+2022-09-01T13:26:03.673Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-09-01T13:26:03.675Z [DEBUG] - users.findOne
+2022-09-01T13:26:26.343Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-09-01T13:26:48.218Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-09-01T13:26:48.220Z [DEBUG] - users.findOne
+2022-09-01T13:29:26.113Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-09-01T13:29:26.114Z [DEBUG] - users.findOne
+2022-09-01T13:37:54.660Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-09-01T13:37:54.672Z [DEBUG] - users.findOne
+2022-09-01T13:38:29.762Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-09-01T13:38:29.764Z [DEBUG] - users.findOne
+2022-09-01T13:38:36.180Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-09-01T13:38:36.182Z [DEBUG] - users.findOne
+2022-09-01T13:41:02.432Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-09-01T13:41:02.436Z [DEBUG] - users.findOne
+2022-09-01T13:41:49.787Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-09-01T13:41:49.790Z [DEBUG] - users.findOne
+2022-09-01T15:28:44.740Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-09-01T15:28:44.772Z [DEBUG] - users.findOne
+2022-09-01T15:28:55.234Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-09-01T15:28:55.241Z [DEBUG] - users.findOne
+2022-09-01T15:29:04.349Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-09-01T15:29:04.352Z [DEBUG] - users.findOne
+2022-09-01T15:29:53.783Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-09-01T15:29:53.793Z [DEBUG] - users.findOne
+2022-09-01T15:30:41.088Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-09-01T15:30:41.091Z [DEBUG] - users.findOne
+2022-09-01T15:32:21.063Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-09-01T15:32:21.086Z [DEBUG] - users.findOne
+2022-09-01T15:33:12.395Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-09-01T15:33:12.401Z [DEBUG] - users.findOne
+2022-09-01T15:53:23.742Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-09-01T15:53:23.758Z [DEBUG] - users.findOne
+2022-09-01T15:54:26.441Z [INFO] - Middlewares was initialized
+2022-09-01T15:54:26.461Z [INFO] - Server started on port 3000
+2022-09-01T15:55:38.310Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-09-01T15:55:38.365Z [DEBUG] - users.findOne
+2022-09-01T16:17:30.236Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-09-01T16:17:30.322Z [DEBUG] - users.findOne
+2022-09-01T16:18:09.246Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-09-01T16:18:09.251Z [DEBUG] - users.findOne
+2022-09-01T16:18:20.766Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-09-01T16:18:20.771Z [DEBUG] - users.findOne
+2022-09-01T16:18:45.466Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-09-01T16:18:45.469Z [DEBUG] - users.findOne
+2022-09-01T16:23:59.990Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-09-01T16:24:00.020Z [DEBUG] - users.findOne
+2022-09-01T16:25:55.550Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-09-01T16:25:55.600Z [DEBUG] - users.findOne
+2022-09-01T16:29:10.659Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-09-01T16:29:10.737Z [DEBUG] - users.findOne
+2022-09-01T16:32:18.983Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-09-01T16:32:18.995Z [DEBUG] - users.findOne
+2022-09-01T16:34:33.583Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-09-01T16:34:33.624Z [DEBUG] - users.findOne
+2022-09-01T16:38:06.144Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-09-01T16:38:06.187Z [DEBUG] - users.findOne
+2022-09-01T16:39:56.329Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-09-01T16:39:56.338Z [DEBUG] - users.findOne
+2022-09-01T16:42:34.148Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-09-01T16:42:34.155Z [DEBUG] - users.findOne
+2022-09-01T16:49:19.939Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-09-01T16:49:19.989Z [DEBUG] - users.findOne
+2022-09-01T16:50:26.247Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-09-01T16:50:26.261Z [DEBUG] - users.findOne
+2022-09-01T16:51:31.036Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-09-01T16:51:31.090Z [DEBUG] - users.findOne
+2022-09-01T16:52:23.602Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-09-01T16:52:23.610Z [DEBUG] - users.findOne
+2022-09-01T16:56:13.720Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-09-01T16:56:13.786Z [DEBUG] - users.findOne
+2022-09-01T16:58:09.490Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-09-01T16:58:09.495Z [DEBUG] - users.findOne
+2022-09-01T16:59:24.628Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-09-01T16:59:24.702Z [DEBUG] - users.findOne
+2022-09-01T17:00:53.345Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-09-01T17:00:53.390Z [DEBUG] - users.findOne
+2022-09-01T17:02:45.221Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-09-01T17:02:45.264Z [DEBUG] - users.findOne
+2022-09-01T17:04:53.680Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-09-01T17:04:53.723Z [DEBUG] - users.findOne
+2022-09-01T17:09:13.485Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-09-01T17:09:13.519Z [DEBUG] - users.findOne
+2022-09-01T17:11:53.679Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-09-01T17:11:53.684Z [DEBUG] - users.findOne
+2022-09-01T17:14:15.682Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-09-01T17:14:15.719Z [DEBUG] - users.findOne
+2022-09-01T17:15:19.640Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-09-01T17:15:19.646Z [DEBUG] - users.findOne
+2022-09-01T17:16:42.664Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-09-01T17:16:42.676Z [DEBUG] - users.findOne
+2022-09-01T17:19:06.490Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-09-01T17:19:06.522Z [DEBUG] - users.findOne
+2022-09-01T17:21:53.709Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-09-01T17:21:53.712Z [DEBUG] - users.findOne
+2022-09-01T17:22:00.988Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-09-01T17:22:00.990Z [DEBUG] - users.findOne
+2022-09-01T17:22:12.727Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-09-01T17:22:12.731Z [DEBUG] - users.findOne
+2022-09-01T17:22:26.554Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-09-01T17:22:26.559Z [DEBUG] - users.findOne
+2022-09-01T17:22:53.251Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-09-01T17:22:53.253Z [DEBUG] - users.findOne
+2022-09-01T17:22:59.887Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-09-01T17:22:59.888Z [DEBUG] - users.findOne
+2022-09-01T17:23:04.768Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-09-01T17:23:04.772Z [DEBUG] - users.findOne
+2022-09-01T17:30:24.294Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-09-01T17:30:24.378Z [DEBUG] - users.findOne
+2022-09-01T17:31:10.220Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-09-01T17:31:10.223Z [DEBUG] - users.findOne
+2022-09-01T17:31:13.648Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-09-01T17:31:13.649Z [DEBUG] - users.findOne
+2022-09-01T17:31:17.332Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-09-01T17:31:17.333Z [DEBUG] - users.findOne
+2022-09-01T17:31:28.999Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-09-01T17:31:29.001Z [DEBUG] - users.findOne
+2022-09-01T17:45:12.329Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-09-01T17:45:12.380Z [DEBUG] - users.findOne
+2022-09-01T17:48:05.341Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-09-01T17:48:05.356Z [DEBUG] - users.findOne
+2022-09-01T17:59:32.529Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-09-01T17:59:32.580Z [DEBUG] - users.findOne
+2022-09-01T18:00:32.794Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-09-01T18:00:32.797Z [DEBUG] - users.findOne
+2022-09-01T18:02:05.653Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-09-01T18:02:05.687Z [DEBUG] - users.findOne
+2022-09-01T18:02:34.161Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-09-01T18:02:34.175Z [DEBUG] - users.findOne
+2022-09-01T18:02:43.628Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-09-01T18:02:43.630Z [DEBUG] - users.findOne
+2022-09-01T18:02:52.467Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-09-01T18:02:52.470Z [DEBUG] - users.findOne
+2022-09-01T18:02:55.563Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-09-01T18:02:55.566Z [DEBUG] - users.findOne
+2022-09-01T18:03:04.083Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-09-01T18:03:04.084Z [DEBUG] - users.findOne
+2022-09-01T18:06:25.800Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-09-01T18:06:25.832Z [DEBUG] - users.findOne
+2022-09-01T18:07:02.378Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-09-01T18:07:27.942Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-09-01T18:07:27.955Z [DEBUG] - users.findOne
+2022-09-01T20:48:59.427Z [INFO] - Middlewares was initialized
+2022-09-01T20:48:59.435Z [INFO] - Server started on port 3000
+2022-09-02T11:35:06.133Z [INFO] - Middlewares was initialized
+2022-09-02T11:35:06.146Z [INFO] - Server started on port 3000
+2022-09-02T11:40:56.655Z [INFO] - Middlewares was initialized
+2022-09-02T11:40:56.679Z [INFO] - Server started on port 3000
+2022-09-02T11:41:14.614Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-09-02T11:41:14.626Z [DEBUG] - users.findOne
+2022-09-02T11:41:28.497Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-09-02T11:41:28.502Z [DEBUG] - users.findOne
+2022-09-02T11:41:34.928Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-09-02T11:41:34.930Z [DEBUG] - users.findOne
+2022-09-02T11:42:06.748Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-09-02T11:42:06.749Z [DEBUG] - users.findOne
+2022-09-02T11:42:09.466Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-09-02T11:42:09.468Z [DEBUG] - users.findOne
+2022-09-02T11:42:12.467Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-09-02T11:42:12.471Z [DEBUG] - users.findOne
+2022-09-02T11:47:12.335Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-09-02T11:47:12.336Z [DEBUG] - users.findOne
+2022-09-02T11:50:36.515Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-09-02T11:50:36.518Z [DEBUG] - users.findOne
+2022-09-02T12:03:23.709Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-09-02T12:03:23.712Z [DEBUG] - users.findOne
+2022-09-02T12:03:26.333Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-09-02T12:03:26.336Z [DEBUG] - users.findOne
+2022-09-02T12:59:23.082Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-09-02T12:59:23.094Z [DEBUG] - users.findOne
+2022-09-02T12:59:26.767Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-09-02T12:59:26.770Z [DEBUG] - users.findOne
+2022-09-02T12:59:31.573Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-09-02T12:59:31.577Z [DEBUG] - users.findOne
+2022-09-02T12:59:36.853Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-09-02T12:59:58.616Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-09-02T12:59:58.628Z [DEBUG] - users.findOne
+2022-09-02T13:00:03.568Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-09-02T13:00:03.571Z [DEBUG] - users.findOne
+2022-09-02T13:00:13.632Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-09-02T13:00:13.634Z [DEBUG] - users.findOne
+2022-09-02T13:00:18.514Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-09-02T13:00:18.517Z [DEBUG] - users.findOne
+2022-09-02T13:00:22.329Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-09-02T13:00:22.331Z [DEBUG] - users.findOne
+2022-09-02T13:00:24.988Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-09-02T13:00:24.991Z [DEBUG] - users.findOne
+2022-09-03T05:40:16.809Z [INFO] - Middlewares was initialized
+2022-09-03T05:40:16.826Z [INFO] - Server started on port 3000
+2022-09-03T05:43:31.946Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-09-03T05:43:31.971Z [DEBUG] - users.findOne
+2022-09-03T05:43:39.115Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-09-03T05:43:39.123Z [DEBUG] - users.findOne
+2022-09-03T05:43:45.107Z [INFO] - POST http://localhost:3000/auth/isUserValid
+2022-09-03T05:43:45.111Z [DEBUG] - users.findOne
+2022-09-03T06:18:01.798Z [INFO] - Middlewares was initialized
+2022-09-03T06:18:01.825Z [INFO] - Server started on port 3000
+2022-09-03T06:18:25.936Z [INFO] - GET http://localhost:3000/auth/google
+2022-09-03T06:18:33.107Z [INFO] - GET http://localhost:3000/auth?code=4%2F0AdQt8qj3pGd-l6P8Jn8WMi7U9qn1xb8WZzOwNqQxOYvIR7MkZNyjXBBmfB2YxDJbHWXAPQ&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=4&prompt=consent
+2022-09-03T06:18:34.009Z [DEBUG] - google-users.findOne
+2022-09-03T06:18:34.073Z [DEBUG] - google-users.insertOne
+2022-09-03T06:18:34.133Z [DEBUG] - google-users.findOne
+2022-09-03T06:18:34.151Z [INFO] - GET http://localhost:3000/auth/success
+2022-09-03T06:18:35.117Z [DEBUG] - google-users.findOne
+2022-09-03T07:44:30.663Z [INFO] - Middlewares was initialized
+2022-09-03T07:44:30.674Z [INFO] - Server started on port 3000
+2022-09-03T07:49:58.535Z [INFO] - GET http://localhost:3000/auth/success
+2022-09-03T07:50:10.964Z [INFO] - POST http://localhost:3000/auth/registration
+2022-09-03T07:50:10.991Z [DEBUG] - users.findOne
+2022-09-03T07:50:11.209Z [DEBUG] - users.insertOne
+2022-09-03T07:50:14.552Z [DEBUG] - Message sent: <63abec43-9483-d9d5-96c6-dceedcbfe83a@gmail.com>
+2022-09-03T07:50:30.093Z [INFO] - GET http://localhost:3000/auth/verify-email/f2ce8560da8fb6b9f3d56f135a5454212643cff0bca50748fc9cc1240d86b769e3b99b1b2699f5c527175a834015996a4254b79794520aef926de756
+2022-09-03T07:50:30.100Z [DEBUG] - users.findOne
+2022-09-03T07:50:30.121Z [DEBUG] - users.updateOne
+2022-09-03T07:50:57.254Z [INFO] - POST http://localhost:3000/auth/login/
+2022-09-03T07:50:57.258Z [DEBUG] - users.findOne

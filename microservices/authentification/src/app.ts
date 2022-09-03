@@ -1,13 +1,12 @@
 import 'dotenv/config'
-import express, { Router } from 'express'
-import mongoose from 'mongoose'
-import { logger } from './services/logger'
 import './config/passport'
 import passport from 'passport'
+import mongoose from 'mongoose'
 import session from 'express-session'
-import {dbLogger} from './middlewares/logger'
 import bodyParser from 'body-parser'
-import formidable from 'express-formidable'
+import express, { Router } from 'express'
+import { logger } from './services/logger'
+import {dbLogger} from './middlewares/logger'
 
 
 class App {
