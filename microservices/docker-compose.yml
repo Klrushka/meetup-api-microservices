@@ -1,0 +1,59 @@
+version: "3.3"
+services:
+  mongo:
+    image: mongo:latest
+    ports:
+      - 27017-27019:27017-27019
+  
+  auth:
+    container_name: auth
+    build: ./authentification
+    depends_on:
+      - mongo
+    ports:
+      - 3000:3000
+    environment:
+      DB_HOST: mongo
+      DB_PORT: 27017
+  
+  meetups:
+    container_name: meetups
+    build: ./meetup
+    depends_on:
+      - mongo
+    environment:
+      DB_HOST: mongo
+      DB_PORT: 27017  
+    ports:
+      - 3001:3001
+
+  elasticsearch:
+    container_name: es-container
+    image: docker.elastic.co/elasticsearch/elasticsearch:7.17.6
+    environment:
+      - xpack.security.enabled=false
+      - "discovery.type=single-node"
+    networks:
+      - es-net
+    ports:
+      - 9200:9200
+
+  kibana:
+    container_name: kb-container
+    image: docker.elastic.co/kibana/kibana:7.17.6
+    environment:
+      - ELASTICSEARCH_HOSTS=http://es-container:9200
+    networks:
+      - es-net
+    depends_on:
+      - elasticsearch
+    ports:
+      - 5601:5601
+
+networks:
+  es-net:
+    driver: bridge
+
+  
+
+  
