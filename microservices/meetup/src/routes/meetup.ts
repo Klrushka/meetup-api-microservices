@@ -5,6 +5,7 @@ import { requestLoggerMiddleware } from '../middlewares/logger'
 import { validator } from '../middlewares/validator'
 
 
+
 export function initMeeetupRoutes(): Router {
     const router = Router()
 

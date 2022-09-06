@@ -23,6 +23,7 @@
     "pdfkit": "^0.13.0",
     "pdfkit-table": "^0.1.99",
     "request": "^2.88.2",
+    "socket.io": "^4.5.2",
     "winston": "^3.8.1"
   },
   "devDependencies": {

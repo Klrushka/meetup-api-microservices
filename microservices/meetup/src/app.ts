@@ -1,26 +1,39 @@
 import 'dotenv/config'
 import express, { Router } from 'express'
+import http from 'http'
 import bodyParser from 'body-parser'
 import mongoose from 'mongoose'
-import {logger} from './services/logger'
+import { logger } from './services/logger'
 import { dbLogger } from './middlewares/logger'
+import { Server, Socket } from 'socket.io'
+import { initMeeetupRoutes } from './routes/meetup'
 
 class App {
     public app: express.Application
-    public port: string | number
+    public port:  number
+    public server: http.Server
+    public io: Server
+
 
     constructor(routes: Router[]) {
         this.app = express()
-        this.port = process.env.PORT ?? 3001
-
+        this.port = +(process.env.PORT ?? 3001)
+          
         this.databaseConnection()
         this.initMiddleware()
         this.initRoutes(routes)
+
+        this.server = http.createServer(this.app)
+        this.io = new Server(this.server)
     }
 
+
     public listen() {
-        this.app.listen(this.port, () => {
-            logger.info(`Server started on port ${this.port}`)            
+        this.io.on('connection', (socket: Socket) => {
+            logger.info(`Client connected ${socket.id}`)
+        })
+        this.server.listen(this.port, () => {
+            logger.info(`Server started on port ${this.port}`)
         })
     }
 
@@ -42,9 +55,13 @@ class App {
         })
     }
 
-
+    
 
 }
 
+const app = new App([initMeeetupRoutes()])
 
-export default App
+export {
+    app,
+    App,
+}

@@ -1,4 +1,5 @@
 import mongoose from 'mongoose'
+import { pointInterface } from './pointInterface'
 
 export interface MeetupInterface extends mongoose.Document{
     _id: {
@@ -19,7 +20,8 @@ export interface MeetupInterface extends mongoose.Document{
     userId: {
         type: string,
         allowNull: false
-    }
+    },
+    location: pointInterface
     createdAt: {
         type: Date,
     },

@@ -5,6 +5,7 @@ import 'mongoosastic-ts/dist/mongoosastic'
 // eslint-disable-next-line @typescript-eslint/ban-ts-comment
 // @ts-ignore
 import mongoosastic from 'mongoosastic'
+import { pointSchema } from './point'
 
 
 const meetupSchema = new mongoose.Schema({
@@ -26,6 +27,10 @@ const meetupSchema = new mongoose.Schema({
     dueTime: {
         type: Date,
     },
+    location:{
+        type: pointSchema,
+        index: '2dsphere'
+    }
 }, { versionKey: false, timestamps: true })
 
     // eslint-disable-next-line @typescript-eslint/ban-ts-comment

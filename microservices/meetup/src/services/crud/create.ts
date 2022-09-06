@@ -8,7 +8,7 @@ export async function create(req: RequestInterface, res: Response, next: NextFun
         const newMeetup = await meetup.create(req.body)
         res.status(200).json(newMeetup)
     } catch (err) {
-        next(err)
+        next(err)   
     }
 
 }

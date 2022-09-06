@@ -1,6 +1,8 @@
-import App from './app'
+import { app } from './app'
 import { initMeeetupRoutes } from './routes/meetup'
 
-const app = new App([initMeeetupRoutes()])
+
+// app.initRoutes([])
+
 
 app.listen()
