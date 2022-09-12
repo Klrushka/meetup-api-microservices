@@ -1,30 +1,17 @@
 import { Response, Request, NextFunction } from 'express'
+import Joi from 'joi'
 import { loginValidator, registrationValidator } from '../services/validators/shemas/request.validators'
 
+const validator  = (validator: Joi.ObjectSchema<any>) => (req: Request, res: Response, next: NextFunction) => {
+    const { error } = validator.validate(req.body)
 
-
-class Validator {
-    validateLogin(req: Request, res: Response, next: NextFunction) {
-        const { error } = loginValidator.validate(req.body)
-        
-
-        if (error) {
-            next(error)
-        }
-
-        next()
+    if (error) {
+        next(error)
     }
-
-    validateRegistration(req: Request, res: Response, next: NextFunction) {
-        const { error } = registrationValidator.validate(req.body)
-
-        if (error) {
-            next(error)
-        }
-
-        next()
-    }
+    next()
 }
 
-
-export const validator = new Validator()
+export default {
+    validateLogin: validator(loginValidator),
+    validateRegistration: validator(registrationValidator),
+}

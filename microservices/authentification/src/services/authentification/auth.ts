@@ -26,12 +26,10 @@ async function signUp(req: Request, res: Response, next: NextFunction) {
 
         const emailToken = crypto.randomBytes(60).toString('hex')
 
+        const userPayload = { ...req.body, emailToken, ...encrypt(req.body.password) }
 
-        Object.assign(req.body, { emailToken: emailToken })
-        Object.assign(req.body, encrypt(req.body.password))
+        const newUser = await user.create(userPayload)
 
-
-        const newUser = await user.create(req.body)
         const msg = {
             from: process.env.MAIL_USER ?? 'unknown',
             to: newUser.email,

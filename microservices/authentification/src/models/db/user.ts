@@ -27,7 +27,7 @@ const userShema = new mongoose.Schema<UserInterface>({
         default: ['user'] 
     }, 
     avatar: {
-        type: Buffer,
+        type: Buffer,                           // TODO спросить про буфер
         contentType: String,
     },
     isVerified: {

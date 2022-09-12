@@ -4,9 +4,9 @@ import { googleUser } from '../models/db/google.user'
 
 
 export const googleStrategy = new Strategy({
-    clientID: process.env.GOOGLE_CLIENT_ID ?? '',
-    clientSecret: process.env.GOOGLE_CLIENT_SECRET ?? '',
-    callbackURL: 'http://localhost:3000/auth',
+    clientID: process.env.GOOGLE_CLIENT_ID!,
+    clientSecret: process.env.GOOGLE_CLIENT_SECRET!,
+    callbackURL: process.env.GOOGLE_CALLBACK_URL!,
     passReqToCallback: true
 },
     async function (_request: any, _accessToken: string, _refreshToken: string, profile: any, done: VerifyCallback) {

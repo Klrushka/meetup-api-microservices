@@ -1,9 +1,9 @@
 import { Response, Request, NextFunction } from 'express'
 import { RequestInterface } from '../interfaces/google.request.interface'
-import { emailVerification, googleAuth, isUserValid, signIn, signUp } from '../services/auth/auth'
+import { emailVerification, googleAuth, isUserValid, signIn, signUp } from '../services/authentification/auth'
 
 
-
+// TODO спросить про контроллер
 class AuthentificationController {
     async registration(req: Request, res: Response, next: NextFunction) {
         await signUp(req, res, next)

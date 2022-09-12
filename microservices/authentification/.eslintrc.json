@@ -16,6 +16,7 @@
     ],
     "rules": {
         "semi": ["error", "never"],
-        "quotes": [2, "single"]
+        "quotes": [2, "single"],
+        "@typescript-eslint/no-non-null-assertion": "off"
     }
 }

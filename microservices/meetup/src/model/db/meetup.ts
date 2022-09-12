@@ -36,8 +36,8 @@ const meetupSchema = new mongoose.Schema({
     // eslint-disable-next-line @typescript-eslint/ban-ts-comment
     // @ts-ignore
 meetupSchema.plugin(mongoosastic,  {
-    'host': 'localhost',
-    'port': 9200
+    'host': process.env.HOST!,
+    'port': process.env.ES_PORT!,
 })
 
 meetupSchema.plugin(csv, {

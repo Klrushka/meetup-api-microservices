@@ -6,7 +6,7 @@ export const isUser = function (req: Request, res: Response, next: NextFunction)
     const port = process.env.USER_CHECK_PORT
 
     request.post({
-        uri: `http://${host}:${port}/auth/isUserValid`,
+        uri: `http://${host}:${port}/auth/verify-user`,
         form: {
             token: req.headers.authorization
         }
