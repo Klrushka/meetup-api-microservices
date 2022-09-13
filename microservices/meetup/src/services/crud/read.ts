@@ -1,5 +1,6 @@
 import { Request, Response, NextFunction } from 'express'
 import { app } from '../../app'
+import { client } from '../../model/db/esclient'
 import { meetup } from '../../model/db/meetup'
 
 
@@ -22,18 +23,12 @@ async function readById(req: Request, res: Response, next: NextFunction) {
 async function read(req: Request, res: Response, next: NextFunction) {
     try {
         if (req.query.search) {
-            // eslint-disable-next-line @typescript-eslint/ban-ts-comment
-            // @ts-ignore
-            const esSearchMeetup = await meetup.search({
-                match: {
-                    title: {
-                        query: req.query.search,
-                        fuzziness: 'auto'
-                    }
-                }
-            }, { hydrate: true })
-            app.io.emit('readalles', esSearchMeetup.body.hits.hydrated)
-            res.status(200).json(esSearchMeetup.body.hits.hydrated)
+            const esSearchMeetup = await client.search({
+                index: 'meetup', 
+                q: req.query.search as string
+            })
+            app.io.emit('readalles', esSearchMeetup)
+            res.status(200).json(esSearchMeetup)
             return
         }
 

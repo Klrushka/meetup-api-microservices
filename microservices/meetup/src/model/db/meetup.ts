@@ -2,9 +2,6 @@ import mongoose from 'mongoose'
 import csv from 'mongoose-csv-export'
 import { MeetupInterface } from '../../interfaces/meetupInterface'
 import 'mongoosastic-ts/dist/mongoosastic'
-// eslint-disable-next-line @typescript-eslint/ban-ts-comment
-// @ts-ignore
-import mongoosastic from 'mongoosastic'
 import { pointSchema } from './point'
 
 
@@ -27,18 +24,12 @@ const meetupSchema = new mongoose.Schema({
     dueTime: {
         type: Date,
     },
-    location:{
+    location: {
         type: pointSchema,
         index: '2dsphere'
     }
 }, { versionKey: false, timestamps: true })
 
-    // eslint-disable-next-line @typescript-eslint/ban-ts-comment
-    // @ts-ignore
-meetupSchema.plugin(mongoosastic,  {
-    'host': process.env.HOST!,
-    'port': process.env.ES_PORT!,
-})
 
 meetupSchema.plugin(csv, {
     headers: 'Id Title Description Tags DueTime UserId',

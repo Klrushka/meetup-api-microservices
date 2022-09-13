@@ -4,6 +4,8 @@ services:
     image: mongo:latest
     ports:
       - 27017-27019:27017-27019
+    networks:
+      - es-net
   
   auth:
     container_name: auth
@@ -15,17 +17,24 @@ services:
     environment:
       DB_HOST: mongo
       DB_PORT: 27017
+    networks:
+      - es-net
   
   meetups:
     container_name: meetups
     build: ./meetup
     depends_on:
       - mongo
+      - elasticsearch
     environment:
       DB_HOST: mongo
-      DB_PORT: 27017  
+      DB_PORT: 27017
+      USER_CHECK_HOST: auth
+      ELASTICSEARCH_HOSTS: http://es-container:9200
     ports:
       - 3001:3001
+    networks:
+      - es-net
 
   elasticsearch:
     container_name: es-container
@@ -42,7 +51,7 @@ services:
     container_name: kb-container
     image: docker.elastic.co/kibana/kibana:7.17.6
     environment:
-      - ELASTICSEARCH_HOSTS=http://es-container:9200
+      ELASTICSEARCH_HOSTS: http://es-container:9200
     networks:
       - es-net
     depends_on:
