@@ -94,11 +94,79 @@ Okay, It's all about authentification.
 
 ```
 http://localhost:3001/meetups
+http://localhost:3001/meetups/:id
 ```
 Get all meetups
 ![](images/getAllMeetups.jpg)
 <hr>
 
+
+Full text searching
 ```
-http://localhost:3001/meetups?
+http://localhost:3001/meetups?search=name-of-title
 ```
+![](images/es.jpg)
+![](images/es1.jpg)
+<hr>
+
+```
+http://localhost:3001/meetups?near=[coord1, coord2]?dist=100000
+```
+
+dist(m) optional(by default = 100000m)
+
+![](images/dist.jpg)
+
+<hr>
+
+```
+http://localhost:3001/meetupscsv
+```
+
+return csv
+![](images/csv.jpg)
+
+<hr>
+
+retrun pdf
+```
+http://localhost:3001/meetupspdf
+```
+![](images/pdf.jpg)
+
+
+### POST request
+
+```
+http://localhost:3001/meetups
+```
+![](images/post.jpg)
+
+<hr>
+
+### KIBANA
+
+![](images/kibana.jpg)
+
+
+<hr>
+
+### Elastick
+
+![](images/ess.jpg)
+
+<hr>
+
+### PUT request
+
+```
+http://localhost:3001/meetups/:id
+```
+![](images/put.jpg)
+
+### DELETE request
+
+```
+http://localhost:3001/meetups/:id
+```
+![](images/delete.jpg)
