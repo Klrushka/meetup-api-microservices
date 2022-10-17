@@ -1,6 +1,7 @@
 import 'dotenv/config'
 import express, { Router } from 'express'
 import http from 'http'
+import cors from 'cors'
 import bodyParser from 'body-parser'
 import mongoose from 'mongoose'
 import { logger } from './services/logger'
@@ -44,6 +45,7 @@ class App {
     private initMiddleware() {
         this.app.use(bodyParser.json())
         this.app.use(bodyParser.urlencoded({ extended: true }))
+        this.app.use(cors())
         logger.info('Middlewares was initialized')
     }
 

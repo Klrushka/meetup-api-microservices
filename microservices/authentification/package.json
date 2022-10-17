@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "authentification-microservice",
   "main": "server.js",
+  
   "scripts": {
     "start": "node build/server.js"
   },
@@ -11,6 +12,7 @@
   "devDependencies": {
     "@types/bcrypt": "^5.0.0",
     "@types/bytes": "^3.1.1",
+    "@types/cors": "^2.8.12",
     "@types/express": "^4.17.13",
     "@types/express-form-data": "^2.0.2",
     "@types/express-formidable": "^1.2.0",
@@ -26,8 +28,10 @@
     "typescript": "^4.8.2"
   },
   "dependencies": {
+    "bcrypt": "^5.0.1",
     "body-parser": "^1.20.0",
     "bytes": "^3.1.2",
+    "cors": "^2.8.5",
     "dotenv": "^16.0.1",
     "express": "^4.18.1",
     "express-async-handler": "^1.2.0",

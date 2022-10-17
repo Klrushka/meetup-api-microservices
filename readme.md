@@ -101,7 +101,7 @@ Get all meetups
 <hr>
 
 
-Full text searching
+Full text searching 
 ```
 http://localhost:3001/meetups?search=name-of-title
 ```

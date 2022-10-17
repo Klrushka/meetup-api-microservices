@@ -7,20 +7,20 @@ import PDFDocument from 'pdfkit-table'
 
 class MeetupController {
     async create(req: RequestInterface, res: Response, next: NextFunction) {
-        const payload = {...req.body, ...{ userId: req?.userId }}
+        const payload = { ...req.body, ...{ userId: req?.userId } }
         const newMeetup = await meetup.create(payload)
         await client.index({
             index: 'meetup',
-            body: {...newMeetup},
+            body: { ...newMeetup },
         })
-    
-        res.status(200).json(newMeetup)
+
+        res.status(201).json(newMeetup)
     }
 
     async read(req: Request, res: Response, next: NextFunction) {
         if (req.query.search) {
             const esSearchMeetup = await client.search({
-                index: 'meetup', 
+                index: 'meetup',
                 q: req.query.search as string
             })
             // eslint-disable-next-line @typescript-eslint/ban-ts-comment
@@ -89,6 +89,12 @@ class MeetupController {
 
     async remove(req: Request, res: Response, next: NextFunction) {
         const deletedMeetup = await meetup.deleteOne({ _id: req.params.id })
+        const index = await client.search({
+            index: 'meetup',
+            q: req.params.id as string
+        })
+        const {_index, _type, _id} = index.body.hits.hits[0]
+        await client.delete({index: _index, type: _type, id: _id})
         res.status(204).json(deletedMeetup)
     }
 
