@@ -1,5 +1,5 @@
-import { Strategy, VerifyCallback } from 'passport-google-oauth2'
-import { googleUser } from '../models/db/google.user'
+import { Strategy, VerifyCallback } from 'passport-google-oauth2';
+import { googleUser } from '../models/db/google.user';
 
 
 
@@ -12,14 +12,14 @@ export const googleStrategy = new Strategy({
     async function (_request: any, _accessToken: string, _refreshToken: string, profile: any, done: VerifyCallback) {
 
         try {
-            let user = await googleUser.findOne({ id: profile.id })
+            let user = await googleUser.findOne({ id: profile.id });
             if (!user) {
-                user = await googleUser.create(profile)
+                user = await googleUser.create(profile);
             }
-            done(null, user)
+            done(null, user);
         }
         catch (err) {
-            done(err)
+            done(err);
         }
     }
-)
+);

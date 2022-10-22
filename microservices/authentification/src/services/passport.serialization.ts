@@ -1,16 +1,16 @@
-import { googleUser } from '../models/db/google.user'
+import { googleUser } from '../models/db/google.user';
 
 const serialize = (user: any, done: any) => {
-    done(null, user.email)
-}
+    done(null, user.email);
+};
 
 const deserialize = async (email: string, done: any) => {
     try {
-        const user = await googleUser.findOne({email})
-        done(null, user)
+        const user = await googleUser.findOne({email});
+        done(null, user);
     } catch (err) {
-        done(err)
+        done(err);
     }
-}
+};
 
-export { serialize, deserialize }
+export { serialize, deserialize };

@@ -1,5 +1,5 @@
-import mongoose from 'mongoose'
-import { UserInterface } from '../../interfaces/user.interface'
+import mongoose from 'mongoose';
+import { UserInterface } from '../../interfaces/user.interface';
 
 const userShema = new mongoose.Schema<UserInterface>({
     name: {
@@ -40,7 +40,7 @@ const userShema = new mongoose.Schema<UserInterface>({
     }
    
 
-}, {timestamps: true, versionKey: false})
+}, {timestamps: true, versionKey: false});
 
 
-export const user: mongoose.Model<UserInterface> = mongoose.model('users', userShema)
+export const user: mongoose.Model<UserInterface> = mongoose.model('users', userShema);

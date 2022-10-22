@@ -1,5 +1,5 @@
-import nodemailer from 'nodemailer'
-import { logger } from './logger'
+import nodemailer from 'nodemailer';
+import { logger } from './logger';
 
 
 export async function sendMail(msg: {from: string, to: string, subject: string | undefined, text: string | undefined, html: string | undefined}) {
@@ -10,9 +10,9 @@ export async function sendMail(msg: {from: string, to: string, subject: string |
             user: process.env.MAIL_USER,
             pass: process.env.MAIL_PASSWORD 
         },
-    })
+    });
 
-    const info = await transporter.sendMail(msg)
+    const info = await transporter.sendMail(msg);
 
-    logger.debug(`Message sent: ${info.messageId}`)
+    logger.debug(`Message sent: ${info.messageId}`);
 }

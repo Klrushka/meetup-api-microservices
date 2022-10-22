@@ -1,4 +1,4 @@
-import mongoose from 'mongoose'
+import mongoose from 'mongoose';
 
 const googleUserSchema = new mongoose.Schema({
     id: {
@@ -27,7 +27,7 @@ const googleUserSchema = new mongoose.Schema({
         type: Array,
         default: ['user']
     }
-}, { timestamps: true, versionKey: false })
+}, { timestamps: true, versionKey: false });
 
 
-export const googleUser = mongoose.model('google-users', googleUserSchema)
+export const googleUser = mongoose.model('google-users', googleUserSchema);
