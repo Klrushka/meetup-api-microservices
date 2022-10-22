@@ -1,4 +1,4 @@
-import Joi from 'joi'
+import Joi from 'joi';
 
 export const meetupValidator = Joi.object({
     title: Joi.string().required(),
@@ -8,4 +8,4 @@ export const meetupValidator = Joi.object({
     userId: Joi.string().optional(),   
     location: Joi.object().optional(),      
    
-})
+});

@@ -1,4 +1,4 @@
-import mongoose from 'mongoose'
+import mongoose from 'mongoose';
 
 export const pointSchema = new mongoose.Schema({
     type: {
@@ -11,4 +11,4 @@ export const pointSchema = new mongoose.Schema({
         required: true,
     }
 },
-)
+);

@@ -1,8 +1,8 @@
-import mongoose from 'mongoose'
-import csv from 'mongoose-csv-export'
-import { MeetupInterface } from '../../interfaces/meetupInterface'
-import 'mongoosastic-ts/dist/mongoosastic'
-import { pointSchema } from './point'
+import mongoose from 'mongoose';
+import csv from 'mongoose-csv-export';
+import { MeetupInterface } from '../../interfaces/meetupInterface';
+import 'mongoosastic-ts/dist/mongoosastic';
+import { pointSchema } from './point';
 
 
 const meetupSchema = new mongoose.Schema({
@@ -28,7 +28,7 @@ const meetupSchema = new mongoose.Schema({
         type: pointSchema,
         index: '2dsphere'
     }
-}, { versionKey: false, timestamps: true })
+}, { versionKey: false, timestamps: true });
 
 
 meetupSchema.plugin(csv, {
@@ -41,6 +41,6 @@ meetupSchema.plugin(csv, {
         'DueTime': 'dueTime',
         'UserId': 'userId',
     },
-})
+});
 
-export const meetup = mongoose.model<MeetupInterface>('meetups', meetupSchema)
+export const meetup = mongoose.model<MeetupInterface>('meetups', meetupSchema);

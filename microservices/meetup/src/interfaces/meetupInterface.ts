@@ -1,5 +1,5 @@
-import mongoose from 'mongoose'
-import { pointInterface } from './pointInterface'
+import mongoose from 'mongoose';
+import { pointInterface } from './pointInterface';
 
 export interface MeetupInterface extends mongoose.Document{
     _id: {
