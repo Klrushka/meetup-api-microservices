@@ -1,46 +1,49 @@
 import mongoose from 'mongoose';
 import { UserInterface } from '../../interfaces/user.interface';
 
-const userShema = new mongoose.Schema<UserInterface>({
+const userShema = new mongoose.Schema<UserInterface>(
+  {
     name: {
-        type: String,
-        required: true,
+      type: String,
+      required: true,
     },
     surname: {
-        type: String,
+      type: String,
     },
     email: {
-        type: String,
-        required: true,
+      type: String,
+      required: true,
     },
     telephone: {
-        type: String,
+      type: String,
     },
     hash: {
-        type: String,
+      type: String,
     },
     salt: {
-        type: String,
+      type: String,
     },
     roles: {
-        type: [String],
-        default: ['user'] 
-    }, 
+      type: [String],
+      default: ['user'],
+    },
     avatar: {
-        type: Buffer,                           // TODO спросить про буфер
-        contentType: String,
+      type: Buffer, // TODO спросить про буфер
+      contentType: String,
     },
     isVerified: {
-        type: Boolean,
-        required: true,
-        default: false,
-    }, 
+      type: Boolean,
+      required: true,
+      default: false,
+    },
     emailToken: {
-        type: String,
-    }
-   
+      type: String,
+    },
+  },
+  { timestamps: true, versionKey: false }
+);
 
-}, {timestamps: true, versionKey: false});
-
-
-export const user: mongoose.Model<UserInterface> = mongoose.model('users', userShema);
+export const user: mongoose.Model<UserInterface> = mongoose.model(
+  'users',
+  userShema
+);

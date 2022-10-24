@@ -1,4 +1,4 @@
 export enum strategies {
-    local = 'local',
-    google = 'google',
-}  
+  local = 'local',
+  google = 'google',
+}
