@@ -1,6 +1,5 @@
 import mongoose from 'mongoose';
 import App from '../app';
-import { user } from '../models/db/user';
 import { initRoutes } from '../routes/authentification';
 import { mockUser } from './__mock__/data';
 import chai, { assert, expect } from 'chai';
@@ -9,7 +8,7 @@ import chaiHttp from 'chai-http';
 
 chai.use(chaiHttp);
 
-const app = new App([initRoutes()])
+const app = new App([initRoutes()]);
 
 describe('authentification test', () => {
 
