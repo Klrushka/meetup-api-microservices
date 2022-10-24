@@ -47,9 +47,10 @@ class App {
   }
 
   private async databaseConnection() {
-    await mongoose.connect(
-      `mongodb://${process.env.DB_HOST}:${process.env.DB_PORT}/${process.env.DB_NAME}`
-    );
+    const url = this.enviroment === 'test'
+      ? `mongodb://${process.env.DB_HOST_TEST}:${process.env.DB_PORT_TEST}/${process.env.DB_NAME_TEST}`
+      : `mongodb://${process.env.DB_HOST}:${process.env.DB_PORT}/${process.env.DB_NAME}`;
+    await mongoose.connect(url);
     mongoose.set('debug', (collectionName, method) => {
       dbLogger(`${collectionName}.${method}`);
     });
