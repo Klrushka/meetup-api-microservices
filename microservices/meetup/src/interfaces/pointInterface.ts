@@ -1,4 +1,4 @@
 export interface pointInterface {
-    type: string,
-    coordinates: [number],
+  type: string;
+  coordinates: [number];
 }
