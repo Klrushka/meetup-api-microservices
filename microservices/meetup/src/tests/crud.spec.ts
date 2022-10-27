@@ -1,6 +1,6 @@
 import supertest from 'supertest';
 import { app } from '../app';
-import { addMeetup, allMeetups, putMeetup, token } from './__mock__/data';
+import { addMeetup, putMeetup, token } from './__mock__/data';
 import chai, { assert, expect } from 'chai';
 import chaiHttp from 'chai-http';
 import mongoose from 'mongoose';
