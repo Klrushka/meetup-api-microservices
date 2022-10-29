@@ -1,6 +1,4 @@
-import App from './app';
-import { initRoutes } from './routes/authentification';
+import { app } from './app';
 
-const app = new App([initRoutes()]);
 
 app.listen();
