@@ -3,7 +3,7 @@ run-name: ${{ github.actor }} test meetups service
 on: [push]
 jobs:
   build_meetups:
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
 
     strategy:
       matrix:
@@ -22,7 +22,7 @@ jobs:
           npm run build
 
   build_authentification:
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
 
     strategy:
       matrix:
