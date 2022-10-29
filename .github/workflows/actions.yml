@@ -2,7 +2,7 @@ name: meetups-api-microservices
 run-name: ${{ github.actor }} test meetups service
 on: [push]
 jobs:
-  build:
+  build_meetups:
     runs-on: ubuntu-latest
 
     strategy:
@@ -21,4 +21,22 @@ jobs:
           npm install
           npm run build
 
+  build_authentification:
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [16.x]
+    steps:
+      - name: Clone rep
+        uses: actions/checkout@v3
+
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v3
+
+      - name: build
+        working-directory: microservices/authentification
+        run: |
+          npm install
+          npm run build
         
