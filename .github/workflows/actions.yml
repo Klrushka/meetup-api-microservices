@@ -3,6 +3,8 @@ run-name: ${{ github.actor }} test meetups service
 on: [push]
 jobs:
   build_meetups:
+    env:
+      DB_PORT: 8000
     runs-on: ubuntu-latest
 
     strategy:
@@ -15,11 +17,19 @@ jobs:
       - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v3
 
+      - name: Start mongo
+        uses: supercharge/mongodb-github-action@1.8.0
+        with:
+          mongodb-version: ${{ matrix.mongodb-version }}
+          mongodb-port: ${{env.DB_PORT}}
+
+
       - name: build
         working-directory: microservices/meetup
         run: |
           npm install
           npm run build
+          npm run test
 
   build_authentification:
     runs-on: ubuntu-latest
