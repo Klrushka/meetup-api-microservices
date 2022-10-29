@@ -14,7 +14,9 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: ${{ matrix.node-version }}
-      - run: cd ./microservices/meetups
-      - run: npm install
-      - run: npm run build
+        working-directory: ./
+        run: | 
+          cd ./microservices/meetups
+          npm install
+          npm run build
       
