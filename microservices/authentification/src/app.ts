@@ -8,7 +8,7 @@ import bodyParser from 'body-parser';
 import express, { Router } from 'express';
 import { logger } from './services/logger';
 import { dbLogger } from './middlewares/logger';
-import { initRoutes } from './routes/authentification';
+import { initRoutes } from './routess/authentification';
 
 class App {
   public app: express.Application;
