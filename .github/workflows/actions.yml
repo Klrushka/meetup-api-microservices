@@ -16,7 +16,7 @@ jobs:
         uses: actions/setup-node@v3
 
       - name: build
-      - working-directory: ./microservices/meetups
+        working-directory: ./microservices/meetups
         run: |
           npm install
           npm run build
