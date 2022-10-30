@@ -20,6 +20,10 @@ jobs:
         run: |
           npm install
           npm run build
+      
+      - name: test
+        working-directory: microservices/authentification
+        run: |
           npm run test
 
       - name: Build, Push and Release a Docker container to Heroku. 
@@ -56,4 +60,18 @@ jobs:
         run: |
           npm install
           npm run build   
+
+      - name: test
+        working-directory: microservices/meetup
+        run: |
           npm run test 
+
+      - name: Build, Push and Release a Docker container to Heroku. 
+        uses: gonuit/heroku-docker-deploy@v1.3.3 
+        with:
+          email: ${{ secrets.HEROKU_EMAIL }}
+          heroku_api_key: ${{ secrets.HEROKU_API_KEY }}
+          heroku_app_name: ${{ secrets.HEROKU_APP_AUTH }}
+          dockerfile_directory: ./microservices/authentification
+          dockerfile_name: Dockerfile
+          process_type: web
