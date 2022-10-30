@@ -5,7 +5,7 @@
   "main": "server.js",
   "scripts": {
     "start": "ts-node ./src/server.ts",
-    "test": "set NODE_ENV=test&& set TS_NODE_COMPILER_OPTIONS={\"module\": \"commonjs\" } && mocha -r ts-node/register  --full-trace ./src/tests/**/*.ts  --exit",
+    "test": "set NODE_ENV=test&& set TS_NODE_COMPILER_OPTIONS={\"module\": \"commonjs\" } && mocha -r ts-node/register  --full-trace ./src/tests/**/*.ts --timeout 10000 --exit",
     "format": "prettier --write \"./src/**\"",
     "build": "tsc"
   },

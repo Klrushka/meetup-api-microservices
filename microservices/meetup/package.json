@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "set NODE_ENV=development&& ts-node ./src/server.ts",
-    "test": "set NODE_ENV=test&& set TS_NODE_COMPILER_OPTIONS={\"module\": \"commonjs\" } && mocha -r ts-node/register  --full-trace ./src/tests/**/*.ts  --exit",
+    "start": "set NODE_ENV=development&& node --max_old_space_size=2560 ./build/server.js",
+    "test": "set NODE_ENV=test&& set TS_NODE_COMPILER_OPTIONS={\"module\": \"commonjs\" } && mocha -r ts-node/register  --full-trace ./src/tests/**/*.ts --timeout 10000 --exit",
     "format": "prettier --write \"./src/**\"",
     "build":  "tsc"
   },

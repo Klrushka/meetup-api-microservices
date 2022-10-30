@@ -9,29 +9,29 @@ class MeetupController {
   async create(req: RequestInterface, res: Response, next: NextFunction) {
     const payload = { ...req.body, ...{ userId: req?.userId } };
     const newMeetup = await meetup.create(payload);
-    if (process.env.NODE_ENV !== 'test') {
-      await client.index({
-        index: 'meetup',
-        body: { ...newMeetup },
-      });
-    }
+    // if (process.env.NODE_ENV !== 'test') {
+    //   await client.index({
+    //     index: 'meetup',
+    //     body: { ...newMeetup },
+    //   });
+    // }
     res.status(201).json(newMeetup);
   }
 
   async read(req: Request, res: Response, next: NextFunction) {
-    if (req.query.search) {
-      const esSearchMeetup = await client.search({
-        index: 'meetup',
-        q: req.query.search as string,
-      });
-      // eslint-disable-next-line @typescript-eslint/ban-ts-comment
-      // @ts-ignore
-      app.io.emit('readalles', esSearchMeetup);
-      // eslint-disable-next-line @typescript-eslint/ban-ts-comment
-      // @ts-ignore
-      res.status(200).json(esSearchMeetup);
-      return;
-    }
+    // if (req.query.search) {
+    //   const esSearchMeetup = await client.search({
+    //     index: 'meetup',
+    //     q: req.query.search as string,
+    //   });
+    //   // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+    //   // @ts-ignore
+    //   app.io.emit('readalles', esSearchMeetup);
+    //   // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+    //   // @ts-ignore
+    //   res.status(200).json(esSearchMeetup);
+    //   return;
+    // }
 
     if (req.query.near) {
       if (!Array.isArray(req.query.near)) {

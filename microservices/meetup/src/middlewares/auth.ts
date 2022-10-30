@@ -5,9 +5,7 @@ import { IUserInfo } from '../interfaces/userInfo';
 
 
 const getUser = async (req: Request, next: NextFunction): Promise<IUserInfo> => {
-  const host = process.env.USER_CHECK_HOST;
-  const port = process.env.USER_CHECK_PORT;
-  const user: IUserInfo = await axios.post(`http://${host}:${port}/auth/verify-user`,
+  const user: IUserInfo = await axios.post(`${process.env.USER_CHECK_URL}`,
     { token: req.headers.authorization }
   ).then(user => user.data);
 
