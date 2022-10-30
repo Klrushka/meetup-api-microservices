@@ -2,37 +2,7 @@ name: meetups-api-microservices
 run-name: ${{ github.actor }} test meetups service
 on: [push]
 jobs:
-  build_meetups:
-    env:
-      DB_PORT: 8000
-    runs-on: ubuntu-latest
-
-    strategy:
-      matrix:
-        node-version: [16.x]
-        mongodb-version: ['6.0']
-    steps:
-      - name: Clone rep
-        uses: actions/checkout@v3
-
-      - name: Use Node.js ${{ matrix.node-version }}
-        uses: actions/setup-node@v3
-
-      - name: Start mongo
-        uses: supercharge/mongodb-github-action@1.8.0
-        with:
-          mongodb-version: ${{ matrix.mongodb-version }}
-          mongodb-port: ${{env.DB_PORT}}
-
-
-      - name: build
-        working-directory: microservices/meetup
-        run: |
-          npm install
-          npm run build
-          npm run test
-
-  build_authentification:
+  authentification:
     runs-on: ubuntu-latest
 
     strategy:
@@ -50,4 +20,40 @@ jobs:
         run: |
           npm install
           npm run build
+          npm run test
+
+      - name: Build, Push and Release a Docker container to Heroku. 
+        uses: gonuit/heroku-docker-deploy@v1.3.3 
+        with:
+          email: ${{ secrets.HEROKU_EMAIL }}
+          heroku_api_key: ${{ secrets.HEROKU_API_KEY }}
+          heroku_app_name: ${{ secrets.HEROKU_APP_AUTH }}
+          dockerfile_directory: ./
+          dockerfile_name: Dockerfile
+          process_type: web
+
+
+
+  meetups:
+    needs: authentification
+    env:
+      DB_PORT: 8000
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [16.x]
         
+    steps:
+      - name: Clone rep
+        uses: actions/checkout@v3
+
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v3
+
+      - name: build
+        working-directory: microservices/meetup
+        run: |
+          npm install
+          npm run build   
+          npm run test 
