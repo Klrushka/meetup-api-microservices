@@ -19,7 +19,7 @@ jobs:
       - name: test
         working-directory: microservices/authentification
         run: |
-          npm run install
+          npm install
           npm run test
 
 
