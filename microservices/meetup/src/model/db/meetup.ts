@@ -1,7 +1,6 @@
 import mongoose from 'mongoose';
 import csv from 'mongoose-csv-export';
 import { MeetupInterface } from '../../interfaces/meetupInterface';
-import 'mongoosastic-ts/dist/mongoosastic';
 import { pointSchema } from './point';
 
 const meetupSchema = new mongoose.Schema(
@@ -43,5 +42,6 @@ meetupSchema.plugin(csv, {
     UserId: 'userId',
   },
 });
+
 
 export const meetup = mongoose.model<MeetupInterface>('meetups', meetupSchema);

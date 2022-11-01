@@ -5,27 +5,15 @@ export interface MeetupInterface extends mongoose.Document {
   _id: {
     type: string;
   };
-  title: {
-    type: string;
-  };
-  description: {
-    type: string;
-  };
-  dueTime: {
-    type: Date;
-  };
-  tags: {
-    type: [string];
-  };
+  title: string;
+  description: string;
+  dueTime: Date;
+  tags: string[];
   userId: {
     type: string;
     allowNull: false;
   };
   location: pointInterface;
-  createdAt: {
-    type: Date;
-  };
-  updatedAt: {
-    type: Date;
-  };
+  createdAt: Date;
+  updatedAt: Date;
 }

@@ -4,6 +4,7 @@ import { RequestInterface } from '../interfaces/requetInterface';
 import { client } from '../model/db/esclient';
 import { meetup } from '../model/db/meetup';
 import PDFDocument from 'pdfkit-table';
+import { findMeetupsByFuzzyTitle } from '../../services/fuzzysearch.mongo';
 
 class MeetupController {
   async create(req: RequestInterface, res: Response, next: NextFunction) {
@@ -19,6 +20,11 @@ class MeetupController {
   }
 
   async read(req: Request, res: Response, next: NextFunction) {
+    if (req.query.search) {
+      const foundedMeetups = await findMeetupsByFuzzyTitle(req.query.search as string);
+      res.status(200).json(foundedMeetups);
+      return;
+    }
     // if (req.query.search) {
     //   const esSearchMeetup = await client.search({
     //     index: 'meetup',
@@ -95,14 +101,14 @@ class MeetupController {
   async remove(req: Request, res: Response, next: NextFunction) {
     const deletedMeetup = await meetup.deleteOne({ _id: req.params.id });
 
-    if (process.env.NODE_ENV !== 'test') {
-      const index = await client.search({
-        index: 'meetup',
-        q: req.params.id as string,
-      });
-      const { _index, _type, _id } = index.body.hits.hits[0];
-      await client.delete({ index: _index, type: _type, id: _id });
-    }
+    // if (process.env.NODE_ENV !== 'test') {
+    //   const index = await client.search({
+    //     index: 'meetup',
+    //     q: req.params.id as string,
+    //   });
+    //   const { _index, _type, _id } = index.body.hits.hits[0];
+    //   await client.delete({ index: _index, type: _type, id: _id });
+    // }
     res.status(204).json(deletedMeetup);
   }
 
