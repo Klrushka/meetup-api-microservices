@@ -75,14 +75,14 @@ class AuthentificationController {
 
     if (!nonVerifyUser) {
       res.status(404).json({
-        message: "User verified or doesn't exist",
+        message: 'User verified or doesn\'t exist',
       });
     } else {
       await user.updateOne(
         { _id: nonVerifyUser._id },
         { $set: { emailToken: null, isVerified: true } }
       );
-      res.status(200).json({ message: 'User veryfied' });
+      res.redirect(process.env.AFTER_VERIFYING_EMAIL_REDIRECT_URL!);
     }
   }
 
