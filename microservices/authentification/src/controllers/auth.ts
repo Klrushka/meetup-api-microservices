@@ -81,7 +81,7 @@ class AuthentificationController {
         { _id: nonVerifyUser._id },
         { $set: { emailToken: null, isVerified: true } }
       );
-      res.redirect(process.env.AFTER_VERIFYING_EMAIL_REDIRECT_URL!);
+      res.redirect(`${process.env.AFTER_VERIFYING_EMAIL_REDIRECT_URL}#/login`);
     }
   }
 
