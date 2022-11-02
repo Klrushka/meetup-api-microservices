@@ -72,7 +72,6 @@ class AuthentificationController {
 
   async emailVerification(req: Request, res: Response, next: NextFunction) {
     const nonVerifyUser = await user.findOne({ emailToken: req.params.token });
-
     if (!nonVerifyUser) {
       res.status(404).json({
         message: 'User verified or doesn\'t exist',
